@@ -1,0 +1,185 @@
+
+<ELU xmlns="http://www.accelrys.com/dsm/elu/2">
+  <experiment Expanded="" Guid="{137314D6-E667-4909-BA87-599492070889}" protocol="Protocols/BIOVIA Discovery Studio/Discovery Studio/Receptor-Ligand Interactions/Scoring And Analysis/Calculate Binding Energies" protocolName="Calculate Binding Energies" version="1">
+    <Accl:mpropval name="Advanced" type="GroupType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Conformation Generation" type="GroupType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Conformation Method" type="StringType">
+      <Accl:value>FAST</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="DSRunInteractive" type="BoolType">
+      <Accl:value>True</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Dielectric Constant" type="DoubleType">
+      <Accl:value>1</Accl:value>
+      <Accl:transformData>1</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Electrostatics" type="StringType">
+      <Accl:value>Spherical Cutoff</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Entropy Mode" type="StringType">
+      <Accl:value>Translational and Rotational Only</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Entropy Temperature" type="DoubleType">
+      <Accl:value>298.15</Accl:value>
+      <Accl:transformData>298.15</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Entropy Trajectory File" type="CopyurlType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Estimate Entropy" type="BoolType">
+      <Accl:value>True</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Flexible Receptor Atom Property" type="StringType">
+      <Accl:value>Receptor.Positions,Gold.Protein.RotatedAtoms</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Flexible Residues" type="CharmmresiduegroupOfStructurewithcharmmforcefieldType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Generalized Born Lambda Constant" type="DoubleType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Implicit Solvent Dielectric Constant" type="LongType">
+      <Accl:value>80</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Implicit Solvent Model" type="StringType">
+      <Accl:value>None</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="In Situ Ligand Minimization" type="BoolType">
+      <Accl:value>False</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="In Situ Ligand Minimization Minimization" type="GroupType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="In Situ Ligand Minimization Minimization Algorithm" type="StringType">
+      <Accl:value>Smart Minimizer</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="In Situ Ligand Minimization Minimization Energy Change" type="DoubleType">
+      <Accl:value>0.0</Accl:value>
+      <Accl:transformData>0.0</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="In Situ Ligand Minimization Minimization Max Steps" type="LongType">
+      <Accl:value>1000</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="In Situ Ligand Minimization Minimization RMS Gradient" type="DoubleType">
+      <Accl:value>0.001</Accl:value>
+      <Accl:transformData>0.001</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Input Atomic Radii" type="StringType">
+      <Accl:value>van der Waals radii</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Input Group by Property" type="PropertyOfLigandsType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Input Ligands" type="LigandsType">
+      <Accl:value>AF-Q9NYV8-F1-model_v4_model_1-(2):All</Accl:value>
+      <Accl:transformData>7eab86f7-9585-1d96-f2-d4-bf-3e-15-9e-84-3b</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Input Receptor" type="StructurewithcharmmforcefieldType">
+      <Accl:value>AF-Q9NYV8-F1-model_v4_model_1-(2):AF-Q9NYV8-F1-model_v4_model_1</Accl:value>
+      <Accl:transformData>7eab86f7-9585-1d96-f2-d4-bf-3e-15-9e-84-3b</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Kappa" type="DoubleType">
+      <Accl:value>0.34</Accl:value>
+      <Accl:transformData>0.34</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Ligand Conformational Entropy" type="BoolType">
+      <Accl:value>False</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Ligand Conformational Entropy Minimization " type="GroupType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Ligand Conformational Entropy Minimization Minimization Algorithm" type="StringType">
+      <Accl:value>Smart Minimizer</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Ligand Conformational Entropy Minimization Minimization Energy Change" type="DoubleType">
+      <Accl:value>0.0</Accl:value>
+      <Accl:transformData>0.0</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Ligand Conformational Entropy Minimization Minimization Max Steps" type="LongType">
+      <Accl:value>500</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Ligand Conformational Entropy Minimization Minimization RMS Gradient" type="DoubleType">
+      <Accl:value>0.1</Accl:value>
+      <Accl:transformData>0.1</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Maximum Alignment RMSD" type="DoubleType">
+      <Accl:value>0.5</Accl:value>
+      <Accl:transformData>0.5</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Maximum Conformations" type="LongType">
+      <Accl:value>1000</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Minimum Hydrogen Radius" type="DoubleType">
+      <Accl:value>0.8</Accl:value>
+      <Accl:transformData>0.8</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Non-polar Surface Coefficient" type="DoubleType">
+      <Accl:value>0.00542</Accl:value>
+      <Accl:transformData>0.00542</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Non-polar Surface Constant" type="DoubleType">
+      <Accl:value>0.92</Accl:value>
+      <Accl:transformData>0.92</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Nonbond Higher Cutoff Distance" type="DoubleType">
+      <Accl:value>12.0</Accl:value>
+      <Accl:transformData>12.0</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Nonbond List Radius" type="DoubleType">
+      <Accl:value>14.0</Accl:value>
+      <Accl:transformData>14.0</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Nonbond Lower Cutoff Distance" type="DoubleType">
+      <Accl:value>10.0</Accl:value>
+      <Accl:transformData>10.0</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Order" type="LongType">
+      <Accl:value>4</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Parallel Processing" type="BoolType">
+      <Accl:value>False</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Parallel Processing Batch Size" type="LongType">
+      <Accl:value>25</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Parallel Processing Preserve Order" type="BoolType">
+      <Accl:value>True</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Parallel Processing Server" type="StringType">
+      <Accl:value>localhost</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Parallel Processing Server Processes" type="StringType">
+      <Accl:value>2</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Partial Charge Estimation" type="StringType">
+      <Accl:value>Momany-Rone</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Reporting" type="GroupType">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Reporting Stylesheet" type="StylesheetType">
+      <Accl:value>{42691EC8-0CE0-4DB9-8B3C-5379CBB967A7}</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Salt Concentration" type="DoubleType">
+      <Accl:value>0.0</Accl:value>
+      <Accl:transformData>0.0</Accl:transformData>
+    </Accl:mpropval>
+    <Accl:mpropval name="Save Intermediate Files" type="BoolType">
+      <Accl:value>False</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Sphere of Flexible Atoms" type="ReceptorsphereOfStructurewithcharmmforcefield">
+      <Accl:value></Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Use Molecular Surface" type="BoolType">
+      <Accl:value>True</Accl:value>
+    </Accl:mpropval>
+    <Accl:mpropval name="Use Non-polar Surface Area" type="BoolType">
+      <Accl:value>True</Accl:value>
+    </Accl:mpropval>
+  </experiment>
+
+</ELU>
