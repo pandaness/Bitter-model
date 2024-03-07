@@ -1,0 +1,6 @@
+[2023-09-11 18:41:25] ------------------------------------
+[2023-09-11 18:41:25] Protocol Name = 'Analyze Ligand Poses'
+[2023-09-11 18:41:25] User Name = '13640'
+[2023-09-11 18:41:25] Run ID = 'F93AF262-FCA3-4312-BE07-B656860BD544'
+[2023-09-11 18:41:25] Final message: '1885 poses: AF-Q9NYV8-F1-model_v4_model_1-(1)'
+[2023-09-11 18:41:25] Heat map script are not created when more than 1000 ligands are present
