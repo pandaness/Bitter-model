@@ -1,0 +1,57 @@
+
+---------------------------------------------------------
+
+ BIOVIA, San Diego 2007
+ LibDock version: 2.3
+ Build date: Oct 14 2018
+
+ D. Diller & K. Merz (2001).
+ "High Throughput Docking for Library Design and Library Prioritization."
+ Proteins: Struct., Funct., and Genet. 43:113-124.
+
+---------------------------------------------------------
+####################################################################
+####################### PARAMETER VALUES ###########################
+####################################################################
+#  XLO                                -5.29
+#  YLO                                -14.23
+#  ZLO                                -24.76
+#  XHI                                29.71
+#  YHI                                20.77
+#  ZHI                                10.24
+#  NUM_HOT_SPOTS                      100
+#  PROTEIN_PDB                        AF-Q9NYV8-F1-model_v4_model_1.pdb
+#  HS_FILE                            Hotspots-AF-Q9NYV8-F1-model_v4_model_1.pdb
+#  HOST_NAME                          panda
+####################################################################
+##################### END OF PARAMETER VALUES ######################
+####################################################################
+
+Checked out license feature: DS_LibDock <v2009.03> [for msi<TeAM SolidSQUAD-SSQ>] (1 copy)
+
+There are 5226 atoms in AF-Q9NYV8-F1-model_v4_model_1.pdb
+The volume of the binding site is 1423.65
+There were 174402 points below the cutoff
+The expected value is -3.91
+The std= 1.74
+There are 30102 points above 1 sigma
+There are 4508 points above 2 sigma
+There are 141 points above 3 sigma
+There are 0 points above 4 sigma
+There are 0 points above 5 sigma
+The Apolar grid
+There are 100 apolar clusters
+The Polar grid
+There were 177558 points below the cutoff
+The expected value is -3.41
+The std= 2.39
+There are 31854 points above 1 sigma
+There are 5688 points above 2 sigma
+There are 585 points above 3 sigma
+There are 3 points above 4 sigma
+There are 0 points above 5 sigma
+There are 100 polar clusters
+
+CPU time: 93.61[s]
+
+Released LibDock License

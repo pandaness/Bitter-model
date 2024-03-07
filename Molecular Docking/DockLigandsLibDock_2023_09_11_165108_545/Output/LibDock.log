@@ -1,0 +1,4678 @@
+
+---------------------------------------------------------
+
+ BIOVIA, San Diego 2007
+ LibDock version: 2.3
+ Build date: Oct 14 2018
+
+ D. Diller & K. Merz (2001).
+ "High Throughput Docking for Library Design and Library Prioritization."
+ Proteins: Struct., Funct., and Genet. 43:113-124.
+
+---------------------------------------------------------
+
+Checked out license feature: DS_LibDock <v2009.03> [for msi<TeAM SolidSQUAD-SSQ>] (1 copy)
+
+
+Start time: Mon Sep 11 17:01:50 2023
+
+
+Reading: LibDock.inp parameter file
+Score Filtering: 100.00
+Setting FE_STERIC_SOFTNESS = 0.50
+Setting FE_HBOND_SOFTNESS = 1.50
+Setting FE_HBOND_RMIN = 3.00
+Setting FE_HBOND_EPSILON = 2.00
+Setting FE_STERIC_RMIN = 4.05
+Setting FE_STERIC_EPSILON = 0.40
+Setting FE_METAL_ACC_RMIN = 2.20
+Setting FE_METAL_ACC_EPSILON = 6.00
+Setting APOLAR_POLAR_WT = 1.00
+Setting APOLAR_POLAR_PENALTY = 0.00
+Setting STERIC_OUTER_CUTOFF = 6.00
+Setting STERIC_INNER_CUTOFF = 5.00
+Setting HBOND_OUTER_CUTOFF = 4.00
+Setting HBOND_INNER_CUTOFF = 3.00
+Turning Electrostatic Repulsion off
+Setting ELEC_REP_SOFTNESS = 7.90
+Setting ELEC_REP_STRENGTH = 285.50
+Setting VDW_PENALTY_FACTOR = 10.00
+Setting VDW_PENALTY_FRACTION = 1.50
+User Specified Parameters
+Host Name = panda
+Verbose =  0
+SASA_WEIGHT = 0.20
+Grids for scoring = 
+Max Hits to Save = 10
+Max Hits to Optimize = 100
+Num BFGS Steps = 50
+Max Hits per Conformations = 30
+Max Number of Starting Conformations = 1000
+Maximum fraction of steric clashes = 0.10
+Final Cluster Radius = 0.50
+Final Score Cutoff = 0.50
+Apolar SASA Cutoff = 15.00
+Polar SASA Cutoff  = 5.00
+tSQ = 0.50
+tSQ_HB = 1.50
+HBondRmin = 3.00
+HBondRminSQ = 9.00
+HBondEpsilon = 2.00
+StericRmin = 4.05
+StericRminSQ = 16.40
+StericEpsilon = 0.40
+MetalAccRmin = 2.20
+MetalAccRminSQ = 4.84
+MetalAccEpsilon = 6.00
+ApolarPolarWt = 1.00
+ApolarPolarPenalty = 0.00
+global_outer_cutoff = 6.00
+global_inner_cutoff = 5.00
+global_outer_hb_cutoff = 4.00
+global_inner_hb_cutoff = 3.00
+HBondRepOn = 0
+tSQ_HB_REP = 7.90
+HBondRep =  285.50
+Intermediate Cluster Radius = 1.00
+Set Score Label: LibDockScore
+####################################################################
+####################### PARAMETER VALUES ###########################
+####################################################################
+#  HS_FILE                            Hotspots-AF-Q9NYV8-F1-model_v4_model_1.pdb
+#  DB_FILE                            sd_file.lst
+#  TOLERANCE                          0.25
+#  PROTEIN_PDB                        AF-Q9NYV8-F1-model_v4_model_1.pdb
+#  PROTEIN_FORMAT                     1
+#  XLO                                -5.29
+#  XHI                                29.71
+#  YLO                                -14.23
+#  YHI                                20.77
+#  ZLO                                -24.76
+#  ZHI                                10.24
+#  FAILED_FILE                        LibDock_out-fail.sd
+#  APPEND_SPOT_INFO                   1
+#  APPEND_RMSD_INFO                   0
+####################################################################
+##################### END OF PARAMETER VALUES ######################
+####################################################################
+Reading Hotspot file: Hotspots-AF-Q9NYV8-F1-model_v4_model_1.pdb
+Number of Polar Hotspots: 100
+Number of APolar Hotspots: 100
+Use Default Energy Parameters
+####################################################
+
+# Van der Waals parameters
+SP3_SP3_HT	2.00
+SP3_SP2_HT	15.00
+SP2_SP2_HT	1.00
+DOUBLE_BOND_HT	24.00
+ATTRACTIVE	6
+REPULSIVE	12
+H	1.00   0.05
+C	1.91   0.10
+O	1.66   0.20
+N	1.85   0.20
+S	2.00   0.20
+P	2.10   0.20
+I	2.03   0.20
+F	1.75   0.20
+CL	1.76   0.20
+BR	1.87   0.20
+B	2.01   0.09
+D	0.65   0.02
+A	0.00   0.00
+R	0.00   0.00
+####################################################
+
+There are 5226 atoms in that file
+There are 1724 protein atoms
+Protein Preparation time: 1.64 [s]
+
+==================
+1) File: molecule-1.sd
+Name: 588 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+2) File: molecule-2.sd
+Name: 588 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+3) File: molecule-3.sd
+Name: 588 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+4) File: molecule-4.sd
+Name: 2519 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+5) File: molecule-5.sd
+Name: 3033 conformers: 35
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+6) File: molecule-6.sd
+Name: 4680 conformers: 107
+Number of hits: 9
+CPU time: 0.32 [s]
+==================
+7) File: molecule-7.sd
+Name: 5429 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+8) File: molecule-8.sd
+Name: 5429 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+9) File: molecule-9.sd
+Name: 5429 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+10) File: molecule-10.sd
+Name: 6057 conformers: 30
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+11) File: molecule-11.sd
+Name: 6287 conformers: 13
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+12) File: molecule-12.sd
+Name: 6305 conformers: 43
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+13) File: molecule-13.sd
+Name: 9259 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+14) File: molecule-14.sd
+Name: 10189 conformers: 2
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+15) File: molecule-15.sd
+Name: 10189 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+16) File: molecule-16.sd
+Name: 12038 conformers: 19
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+17) File: molecule-17.sd
+Name: 12038 conformers: 10
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+18) File: molecule-18.sd
+Name: 12038 conformers: 18
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+19) File: molecule-19.sd
+Name: 13250 conformers: 13
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+20) File: molecule-20.sd
+Name: 13250 conformers: 7
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+21) File: molecule-21.sd
+Name: 19845 conformers: 11
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+22) File: molecule-22.sd
+Name: 19845 conformers: 11
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+23) File: molecule-23.sd
+Name: 20525 conformers: 6
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+24) File: molecule-24.sd
+Name: 24083 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+25) File: molecule-25.sd
+Name: 24699 conformers: 255
+Number of hits: 10
+CPU time: 6.83 [s]
+==================
+26) File: molecule-26.sd
+Name: 24699 conformers: 255
+Number of hits: 10
+CPU time: 7.91 [s]
+==================
+27) File: molecule-27.sd
+Name: 28523 conformers: 94
+Number of hits: 1
+CPU time: 14.76 [s]
+==================
+28) File: molecule-28.sd
+Name: 65080 conformers: 29
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+29) File: molecule-29.sd
+Name: 65727 conformers: 3
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+30) File: molecule-30.sd
+Name: 65727 conformers: 3
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+31) File: molecule-31.sd
+Name: 68051 conformers: 255
+Number of hits: 4
+CPU time: 1.65 [s]
+==================
+32) File: molecule-32.sd
+Name: 68051 conformers: 255
+Number of hits: 4
+CPU time: 1.64 [s]
+==================
+33) File: molecule-33.sd
+Name: 68051 conformers: 230
+Number of hits: 5
+CPU time: 1.39 [s]
+==================
+34) File: molecule-34.sd
+Name: 75324 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+35) File: molecule-35.sd
+Name: 77547 conformers: 16
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+36) File: molecule-36.sd
+Name: 77547 conformers: 8
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+37) File: molecule-37.sd
+Name: 83412 conformers: 4
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+38) File: molecule-38.sd
+Name: 83412 conformers: 4
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+39) File: molecule-39.sd
+Name: 88708 conformers: 58
+Number of hits: 2
+CPU time: 0.28 [s]
+==================
+40) File: molecule-40.sd
+Name: 89594 conformers: 14
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+41) File: molecule-41.sd
+Name: 89594 conformers: 9
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+42) File: molecule-42.sd
+Name: 89594 conformers: 15
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+43) File: molecule-43.sd
+Name: 91461 conformers: 9
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+44) File: molecule-44.sd
+Name: 91558 conformers: 44
+Number of hits: 3
+CPU time: 0.21 [s]
+==================
+45) File: molecule-45.sd
+Name: 91558 conformers: 33
+Number of hits: 3
+CPU time: 0.15 [s]
+==================
+46) File: molecule-46.sd
+Name: 94340 conformers: 164
+Number of hits: 9
+CPU time: 0.61 [s]
+==================
+47) File: molecule-47.sd
+Name: 99489 conformers: 31
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+48) File: molecule-48.sd
+Name: 100094 conformers: 176
+Number of hits: 10
+CPU time: 0.85 [s]
+==================
+49) File: molecule-49.sd
+Name: 100094 conformers: 124
+Number of hits: 5
+CPU time: 0.62 [s]
+==================
+50) File: molecule-50.sd
+Name: 102336 conformers: 34
+Number of hits: 1
+CPU time: 0.11 [s]
+==================
+51) File: molecule-51.sd
+Name: 111054 conformers: 131
+Number of hits: 4
+CPU time: 0.34 [s]
+==================
+52) File: molecule-52.sd
+Name: 111141 conformers: 52
+Number of hits: 2
+CPU time: 0.19 [s]
+==================
+53) File: molecule-53.sd
+Name: 115149 conformers: 188
+Number of hits: 3
+CPU time: 4.00 [s]
+==================
+54) File: molecule-54.sd
+Name: 115149 conformers: 104
+Number of hits: 6
+CPU time: 2.46 [s]
+==================
+55) File: molecule-55.sd
+Name: 115149 conformers: 87
+Number of hits: 3
+CPU time: 1.89 [s]
+==================
+56) File: molecule-56.sd
+Name: 119093 conformers: 54
+Number of hits: 3
+CPU time: 0.19 [s]
+==================
+57) File: molecule-57.sd
+Name: 119245 conformers: 77
+Number of hits: 0
+CPU time: 6.00 [s]
+==================
+58) File: molecule-58.sd
+Name: 119404 conformers: 10
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+59) File: molecule-59.sd
+Name: 126154 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+60) File: molecule-60.sd
+Name: 146798 conformers: 86
+Number of hits: 1
+CPU time: 1.08 [s]
+==================
+61) File: molecule-61.sd
+Name: 146798 conformers: 102
+Number of hits: 2
+CPU time: 1.29 [s]
+==================
+62) File: molecule-62.sd
+Name: 158573 conformers: 255
+Number of hits: 10
+CPU time: 2.58 [s]
+==================
+63) File: molecule-63.sd
+Name: 169853 conformers: 5
+Number of hits: 2
+CPU time: 0.38 [s]
+==================
+64) File: molecule-64.sd
+Name: 169853 conformers: 5
+Number of hits: 0
+CPU time: 0.24 [s]
+==================
+65) File: molecule-65.sd
+Name: 179651 conformers: 5
+Number of hits: 0
+CPU time: 0.05 [s]
+==================
+66) File: molecule-66.sd
+Name: 193681 conformers: 251
+Number of hits: 5
+CPU time: 1.27 [s]
+==================
+67) File: molecule-67.sd
+Name: 193681 conformers: 225
+Number of hits: 10
+CPU time: 1.10 [s]
+==================
+68) File: molecule-68.sd
+Name: 193681 conformers: 251
+Number of hits: 6
+CPU time: 1.17 [s]
+==================
+69) File: molecule-69.sd
+Name: 196915 conformers: 254
+Number of hits: 8
+CPU time: 1.01 [s]
+==================
+70) File: molecule-70.sd
+Name: 196915 conformers: 251
+Number of hits: 7
+CPU time: 0.99 [s]
+==================
+71) File: molecule-71.sd
+Name: 196915 conformers: 251
+Number of hits: 9
+CPU time: 0.98 [s]
+==================
+72) File: molecule-72.sd
+Name: 234540 conformers: 9
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+73) File: molecule-73.sd
+Name: 250873 conformers: 2
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+74) File: molecule-74.sd
+Name: 262500 conformers: 91
+Number of hits: 1
+CPU time: 7.95 [s]
+==================
+75) File: molecule-75.sd
+Name: 262500 conformers: 142
+Number of hits: 1
+CPU time: 12.91 [s]
+==================
+76) File: molecule-76.sd
+Name: 351830 conformers: 206
+Number of hits: 4
+CPU time: 0.76 [s]
+==================
+77) File: molecule-77.sd
+Name: 351830 conformers: 208
+Number of hits: 9
+CPU time: 0.79 [s]
+==================
+78) File: molecule-78.sd
+Name: 439503 conformers: 117
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+79) File: molecule-79.sd
+Name: 440936 conformers: 30
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+80) File: molecule-80.sd
+Name: 441071 conformers: 3
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+81) File: molecule-81.sd
+Name: 441071 conformers: 3
+Number of hits: 2
+CPU time: 0.02 [s]
+==================
+82) File: molecule-82.sd
+Name: 441071 conformers: 3
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+83) File: molecule-83.sd
+Name: 441207 conformers: 232
+Number of hits: 10
+CPU time: 18.44 [s]
+==================
+84) File: molecule-84.sd
+Name: 441891 conformers: 95
+Number of hits: 1
+CPU time: 15.20 [s]
+==================
+85) File: molecule-85.sd
+Name: 442021 conformers: 9
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+86) File: molecule-86.sd
+Name: 442021 conformers: 9
+Number of hits: 1
+CPU time: 0.05 [s]
+==================
+87) File: molecule-87.sd
+Name: 442021 conformers: 9
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+88) File: molecule-88.sd
+Name: 442089 conformers: 3
+Number of hits: 0
+CPU time: 0.15 [s]
+==================
+89) File: molecule-89.sd
+Name: 442138 conformers: 2
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+90) File: molecule-90.sd
+Name: 442146 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+91) File: molecule-91.sd
+Name: 442428 conformers: 83
+Number of hits: 1
+CPU time: 1.36 [s]
+==================
+92) File: molecule-92.sd
+Name: 442428 conformers: 86
+Number of hits: 2
+CPU time: 1.52 [s]
+==================
+93) File: molecule-93.sd
+Name: 442439 conformers: 134
+Number of hits: 0
+CPU time: 2.71 [s]
+==================
+94) File: molecule-94.sd
+Name: 442439 conformers: 182
+Number of hits: 0
+CPU time: 3.78 [s]
+==================
+95) File: molecule-95.sd
+Name: 442971 conformers: 81
+Number of hits: 0
+CPU time: 5.72 [s]
+==================
+96) File: molecule-96.sd
+Name: 442971 conformers: 72
+Number of hits: 1
+CPU time: 5.05 [s]
+==================
+97) File: molecule-97.sd
+Name: 442971 conformers: 72
+Number of hits: 3
+CPU time: 5.16 [s]
+==================
+98) File: molecule-98.sd
+Name: 442971 conformers: 72
+Number of hits: 3
+CPU time: 5.12 [s]
+==================
+99) File: molecule-99.sd
+Name: 443440 conformers: 10
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+100) File: molecule-100.sd
+Name: 480764 conformers: 90
+Number of hits: 1
+CPU time: 0.32 [s]
+==================
+101) File: molecule-101.sd
+Name: 480764 conformers: 80
+Number of hits: 4
+CPU time: 0.32 [s]
+==================
+102) File: molecule-102.sd
+Name: 480764 conformers: 76
+Number of hits: 2
+CPU time: 0.28 [s]
+==================
+103) File: molecule-103.sd
+Name: 550598 conformers: 253
+Number of hits: 6
+CPU time: 0.69 [s]
+==================
+104) File: molecule-104.sd
+Name: 644020 conformers: 2
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+105) File: molecule-105.sd
+Name: 676946 conformers: 17
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+106) File: molecule-106.sd
+Name: 676946 conformers: 38
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+107) File: molecule-107.sd
+Name: 689043 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+108) File: molecule-108.sd
+Name: 736681 conformers: 36
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+109) File: molecule-109.sd
+Name: 736681 conformers: 15
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+110) File: molecule-110.sd
+Name: 736756 conformers: 3
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+111) File: molecule-111.sd
+Name: 927723 conformers: 27
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+112) File: molecule-112.sd
+Name: 3015189 conformers: 255
+Number of hits: 10
+CPU time: 2.60 [s]
+==================
+113) File: molecule-113.sd
+Name: 5280537 conformers: 154
+Number of hits: 10
+CPU time: 1.06 [s]
+==================
+114) File: molecule-114.sd
+Name: 5280537 conformers: 160
+Number of hits: 10
+CPU time: 1.17 [s]
+==================
+115) File: molecule-115.sd
+Name: 5281149 conformers: 191
+Number of hits: 9
+CPU time: 1.50 [s]
+==================
+116) File: molecule-116.sd
+Name: 5281157 conformers: 9
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+117) File: molecule-117.sd
+Name: 5281157 conformers: 10
+Number of hits: 1
+CPU time: 0.05 [s]
+==================
+118) File: molecule-118.sd
+Name: 5281157 conformers: 25
+Number of hits: 1
+CPU time: 0.11 [s]
+==================
+119) File: molecule-119.sd
+Name: 5281316 conformers: 36
+Number of hits: 1
+CPU time: 0.56 [s]
+==================
+120) File: molecule-120.sd
+Name: 5281319 conformers: 84
+Number of hits: 0
+CPU time: 1.25 [s]
+==================
+121) File: molecule-121.sd
+Name: 5281417 conformers: 47
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+122) File: molecule-122.sd
+Name: 5282102 conformers: 20
+Number of hits: 1
+CPU time: 0.12 [s]
+==================
+123) File: molecule-123.sd
+Name: 5282102 conformers: 10
+Number of hits: 0
+CPU time: 0.05 [s]
+==================
+124) File: molecule-124.sd
+Name: 5282102 conformers: 14
+Number of hits: 0
+CPU time: 0.10 [s]
+==================
+125) File: molecule-125.sd
+Name: 5282102 conformers: 11
+Number of hits: 0
+CPU time: 0.07 [s]
+==================
+126) File: molecule-126.sd
+Name: 5282102 conformers: 17
+Number of hits: 0
+CPU time: 0.12 [s]
+==================
+127) File: molecule-127.sd
+Name: 5282102 conformers: 9
+Number of hits: 0
+CPU time: 0.06 [s]
+==================
+128) File: molecule-128.sd
+Name: 5282102 conformers: 11
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+129) File: molecule-129.sd
+Name: 5283266 conformers: 255
+Number of hits: 10
+CPU time: 6.57 [s]
+==================
+130) File: molecule-130.sd
+Name: 5283266 conformers: 254
+Number of hits: 10
+CPU time: 6.34 [s]
+==================
+131) File: molecule-131.sd
+Name: 5283468 conformers: 255
+Number of hits: 10
+CPU time: 6.14 [s]
+==================
+132) File: molecule-132.sd
+Name: 5283468 conformers: 255
+Number of hits: 10
+CPU time: 6.25 [s]
+==================
+133) File: molecule-133.sd
+Name: 5283469 conformers: 253
+Number of hits: 10
+CPU time: 5.60 [s]
+==================
+134) File: molecule-134.sd
+Name: 5283469 conformers: 255
+Number of hits: 10
+CPU time: 5.89 [s]
+==================
+135) File: molecule-135.sd
+Name: 5317238 conformers: 29
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+136) File: molecule-136.sd
+Name: 5317238 conformers: 15
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+137) File: molecule-137.sd
+Name: 5319562 conformers: 4
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+138) File: molecule-138.sd
+Name: 5319562 conformers: 9
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+139) File: molecule-139.sd
+Name: 5319879 conformers: 255
+Number of hits: 10
+CPU time: 5.42 [s]
+==================
+140) File: molecule-140.sd
+Name: 5323592 conformers: 130
+Number of hits: 1
+CPU time: 0.48 [s]
+==================
+141) File: molecule-141.sd
+Name: 5323592 conformers: 203
+Number of hits: 2
+CPU time: 0.79 [s]
+==================
+142) File: molecule-142.sd
+Name: 5323592 conformers: 198
+Number of hits: 2
+CPU time: 0.92 [s]
+==================
+143) File: molecule-143.sd
+Name: 5323592 conformers: 153
+Number of hits: 1
+CPU time: 0.62 [s]
+==================
+144) File: molecule-144.sd
+Name: 5323592 conformers: 136
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+145) File: molecule-145.sd
+Name: 5323592 conformers: 195
+Number of hits: 4
+CPU time: 0.76 [s]
+==================
+146) File: molecule-146.sd
+Name: 5323592 conformers: 131
+Number of hits: 1
+CPU time: 0.56 [s]
+==================
+147) File: molecule-147.sd
+Name: 5323592 conformers: 101
+Number of hits: 1
+CPU time: 0.43 [s]
+==================
+148) File: molecule-148.sd
+Name: 5323592 conformers: 121
+Number of hits: 1
+CPU time: 0.45 [s]
+==================
+149) File: molecule-149.sd
+Name: 5323592 conformers: 180
+Number of hits: 2
+CPU time: 0.78 [s]
+==================
+150) File: molecule-150.sd
+Name: 5323592 conformers: 182
+Number of hits: 1
+CPU time: 0.76 [s]
+==================
+151) File: molecule-151.sd
+Name: 5323592 conformers: 178
+Number of hits: 2
+CPU time: 0.71 [s]
+==================
+152) File: molecule-152.sd
+Name: 5323592 conformers: 186
+Number of hits: 3
+CPU time: 0.72 [s]
+==================
+153) File: molecule-153.sd
+Name: 5323592 conformers: 136
+Number of hits: 1
+CPU time: 0.55 [s]
+==================
+154) File: molecule-154.sd
+Name: 5323592 conformers: 156
+Number of hits: 2
+CPU time: 0.58 [s]
+==================
+155) File: molecule-155.sd
+Name: 5323592 conformers: 138
+Number of hits: 1
+CPU time: 0.57 [s]
+==================
+156) File: molecule-156.sd
+Name: 5323592 conformers: 179
+Number of hits: 1
+CPU time: 0.65 [s]
+==================
+157) File: molecule-157.sd
+Name: 5323592 conformers: 118
+Number of hits: 1
+CPU time: 0.45 [s]
+==================
+158) File: molecule-158.sd
+Name: 5323592 conformers: 120
+Number of hits: 1
+CPU time: 0.54 [s]
+==================
+159) File: molecule-159.sd
+Name: 5323592 conformers: 90
+Number of hits: 1
+CPU time: 0.34 [s]
+==================
+160) File: molecule-160.sd
+Name: 5323592 conformers: 112
+Number of hits: 1
+CPU time: 0.43 [s]
+==================
+161) File: molecule-161.sd
+Name: 5323592 conformers: 201
+Number of hits: 1
+CPU time: 0.82 [s]
+==================
+162) File: molecule-162.sd
+Name: 5323592 conformers: 147
+Number of hits: 2
+CPU time: 0.59 [s]
+==================
+163) File: molecule-163.sd
+Name: 5323592 conformers: 162
+Number of hits: 1
+CPU time: 0.58 [s]
+==================
+164) File: molecule-164.sd
+Name: 5323592 conformers: 92
+Number of hits: 1
+CPU time: 0.41 [s]
+==================
+165) File: molecule-165.sd
+Name: 5323592 conformers: 120
+Number of hits: 1
+CPU time: 0.48 [s]
+==================
+166) File: molecule-166.sd
+Name: 5323592 conformers: 126
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+167) File: molecule-167.sd
+Name: 5323592 conformers: 133
+Number of hits: 1
+CPU time: 0.48 [s]
+==================
+168) File: molecule-168.sd
+Name: 5323592 conformers: 228
+Number of hits: 1
+CPU time: 0.87 [s]
+==================
+169) File: molecule-169.sd
+Name: 5323592 conformers: 122
+Number of hits: 1
+CPU time: 0.58 [s]
+==================
+170) File: molecule-170.sd
+Name: 5323592 conformers: 132
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+171) File: molecule-171.sd
+Name: 5323592 conformers: 86
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+172) File: molecule-172.sd
+Name: 5323592 conformers: 163
+Number of hits: 1
+CPU time: 0.65 [s]
+==================
+173) File: molecule-173.sd
+Name: 5323592 conformers: 120
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+174) File: molecule-174.sd
+Name: 5323592 conformers: 154
+Number of hits: 2
+CPU time: 0.69 [s]
+==================
+175) File: molecule-175.sd
+Name: 5323592 conformers: 200
+Number of hits: 1
+CPU time: 0.74 [s]
+==================
+176) File: molecule-176.sd
+Name: 5323592 conformers: 110
+Number of hits: 1
+CPU time: 0.42 [s]
+==================
+177) File: molecule-177.sd
+Name: 5323592 conformers: 125
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+178) File: molecule-178.sd
+Name: 5323592 conformers: 111
+Number of hits: 1
+CPU time: 0.51 [s]
+==================
+179) File: molecule-179.sd
+Name: 5323592 conformers: 48
+Number of hits: 1
+CPU time: 0.23 [s]
+==================
+180) File: molecule-180.sd
+Name: 5323592 conformers: 118
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+181) File: molecule-181.sd
+Name: 5323592 conformers: 149
+Number of hits: 1
+CPU time: 0.66 [s]
+==================
+182) File: molecule-182.sd
+Name: 5323592 conformers: 135
+Number of hits: 1
+CPU time: 0.55 [s]
+==================
+183) File: molecule-183.sd
+Name: 5323592 conformers: 165
+Number of hits: 1
+CPU time: 0.67 [s]
+==================
+184) File: molecule-184.sd
+Name: 5323592 conformers: 86
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+185) File: molecule-185.sd
+Name: 5323592 conformers: 120
+Number of hits: 1
+CPU time: 0.53 [s]
+==================
+186) File: molecule-186.sd
+Name: 5323592 conformers: 162
+Number of hits: 1
+CPU time: 0.63 [s]
+==================
+187) File: molecule-187.sd
+Name: 5323592 conformers: 126
+Number of hits: 1
+CPU time: 0.50 [s]
+==================
+188) File: molecule-188.sd
+Name: 5323592 conformers: 157
+Number of hits: 1
+CPU time: 0.58 [s]
+==================
+189) File: molecule-189.sd
+Name: 5323592 conformers: 170
+Number of hits: 1
+CPU time: 0.64 [s]
+==================
+190) File: molecule-190.sd
+Name: 5323592 conformers: 142
+Number of hits: 1
+CPU time: 0.60 [s]
+==================
+191) File: molecule-191.sd
+Name: 5323592 conformers: 156
+Number of hits: 1
+CPU time: 0.54 [s]
+==================
+192) File: molecule-192.sd
+Name: 5323592 conformers: 72
+Number of hits: 1
+CPU time: 0.30 [s]
+==================
+193) File: molecule-193.sd
+Name: 5323592 conformers: 208
+Number of hits: 1
+CPU time: 0.84 [s]
+==================
+194) File: molecule-194.sd
+Name: 5323592 conformers: 95
+Number of hits: 1
+CPU time: 0.38 [s]
+==================
+195) File: molecule-195.sd
+Name: 5323592 conformers: 181
+Number of hits: 2
+CPU time: 0.72 [s]
+==================
+196) File: molecule-196.sd
+Name: 5323592 conformers: 204
+Number of hits: 1
+CPU time: 0.78 [s]
+==================
+197) File: molecule-197.sd
+Name: 5323592 conformers: 164
+Number of hits: 1
+CPU time: 0.69 [s]
+==================
+198) File: molecule-198.sd
+Name: 5323592 conformers: 173
+Number of hits: 1
+CPU time: 0.67 [s]
+==================
+199) File: molecule-199.sd
+Name: 5323592 conformers: 199
+Number of hits: 1
+CPU time: 0.68 [s]
+==================
+200) File: molecule-200.sd
+Name: 5323592 conformers: 132
+Number of hits: 1
+CPU time: 0.54 [s]
+==================
+201) File: molecule-201.sd
+Name: 5323592 conformers: 148
+Number of hits: 2
+CPU time: 0.68 [s]
+==================
+202) File: molecule-202.sd
+Name: 5323592 conformers: 84
+Number of hits: 1
+CPU time: 0.30 [s]
+==================
+203) File: molecule-203.sd
+Name: 5323592 conformers: 185
+Number of hits: 1
+CPU time: 0.69 [s]
+==================
+204) File: molecule-204.sd
+Name: 5323592 conformers: 72
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+205) File: molecule-205.sd
+Name: 5323592 conformers: 39
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+206) File: molecule-206.sd
+Name: 5323592 conformers: 91
+Number of hits: 1
+CPU time: 0.44 [s]
+==================
+207) File: molecule-207.sd
+Name: 5323592 conformers: 75
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+208) File: molecule-208.sd
+Name: 5323592 conformers: 55
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+209) File: molecule-209.sd
+Name: 5323592 conformers: 47
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+210) File: molecule-210.sd
+Name: 5323592 conformers: 54
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+211) File: molecule-211.sd
+Name: 5323592 conformers: 88
+Number of hits: 1
+CPU time: 0.39 [s]
+==================
+212) File: molecule-212.sd
+Name: 5323592 conformers: 81
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+213) File: molecule-213.sd
+Name: 5323592 conformers: 94
+Number of hits: 1
+CPU time: 0.45 [s]
+==================
+214) File: molecule-214.sd
+Name: 5323592 conformers: 80
+Number of hits: 3
+CPU time: 0.37 [s]
+==================
+215) File: molecule-215.sd
+Name: 5323592 conformers: 99
+Number of hits: 3
+CPU time: 0.47 [s]
+==================
+216) File: molecule-216.sd
+Name: 5323592 conformers: 87
+Number of hits: 2
+CPU time: 0.35 [s]
+==================
+217) File: molecule-217.sd
+Name: 5323592 conformers: 87
+Number of hits: 1
+CPU time: 0.42 [s]
+==================
+218) File: molecule-218.sd
+Name: 5323592 conformers: 69
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+219) File: molecule-219.sd
+Name: 5323592 conformers: 79
+Number of hits: 2
+CPU time: 0.34 [s]
+==================
+220) File: molecule-220.sd
+Name: 5323592 conformers: 63
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+221) File: molecule-221.sd
+Name: 5323592 conformers: 128
+Number of hits: 1
+CPU time: 0.54 [s]
+==================
+222) File: molecule-222.sd
+Name: 5323592 conformers: 97
+Number of hits: 1
+CPU time: 0.44 [s]
+==================
+223) File: molecule-223.sd
+Name: 5323592 conformers: 62
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+224) File: molecule-224.sd
+Name: 5323592 conformers: 58
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+225) File: molecule-225.sd
+Name: 5323592 conformers: 57
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+226) File: molecule-226.sd
+Name: 5323592 conformers: 97
+Number of hits: 1
+CPU time: 0.40 [s]
+==================
+227) File: molecule-227.sd
+Name: 5323592 conformers: 57
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+228) File: molecule-228.sd
+Name: 5323592 conformers: 47
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+229) File: molecule-229.sd
+Name: 5323592 conformers: 62
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+230) File: molecule-230.sd
+Name: 5323592 conformers: 44
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+231) File: molecule-231.sd
+Name: 5323592 conformers: 20
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+232) File: molecule-232.sd
+Name: 5323592 conformers: 34
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+233) File: molecule-233.sd
+Name: 5323592 conformers: 49
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+234) File: molecule-234.sd
+Name: 5323592 conformers: 35
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+235) File: molecule-235.sd
+Name: 5323592 conformers: 65
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+236) File: molecule-236.sd
+Name: 5323592 conformers: 38
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+237) File: molecule-237.sd
+Name: 5323592 conformers: 55
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+238) File: molecule-238.sd
+Name: 5323592 conformers: 92
+Number of hits: 1
+CPU time: 0.46 [s]
+==================
+239) File: molecule-239.sd
+Name: 5323592 conformers: 71
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+240) File: molecule-240.sd
+Name: 5323592 conformers: 54
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+241) File: molecule-241.sd
+Name: 5323592 conformers: 78
+Number of hits: 2
+CPU time: 0.34 [s]
+==================
+242) File: molecule-242.sd
+Name: 5323592 conformers: 70
+Number of hits: 1
+CPU time: 0.32 [s]
+==================
+243) File: molecule-243.sd
+Name: 5323592 conformers: 73
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+244) File: molecule-244.sd
+Name: 5323592 conformers: 97
+Number of hits: 1
+CPU time: 0.40 [s]
+==================
+245) File: molecule-245.sd
+Name: 5323592 conformers: 105
+Number of hits: 1
+CPU time: 0.49 [s]
+==================
+246) File: molecule-246.sd
+Name: 5323592 conformers: 68
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+247) File: molecule-247.sd
+Name: 5323592 conformers: 101
+Number of hits: 1
+CPU time: 0.45 [s]
+==================
+248) File: molecule-248.sd
+Name: 5323592 conformers: 85
+Number of hits: 2
+CPU time: 0.33 [s]
+==================
+249) File: molecule-249.sd
+Name: 5323592 conformers: 84
+Number of hits: 1
+CPU time: 0.38 [s]
+==================
+250) File: molecule-250.sd
+Name: 5323592 conformers: 114
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+251) File: molecule-251.sd
+Name: 5323592 conformers: 74
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+252) File: molecule-252.sd
+Name: 5323592 conformers: 31
+Number of hits: 1
+CPU time: 0.12 [s]
+==================
+253) File: molecule-253.sd
+Name: 5323592 conformers: 54
+Number of hits: 2
+CPU time: 0.22 [s]
+==================
+254) File: molecule-254.sd
+Name: 5323592 conformers: 79
+Number of hits: 3
+CPU time: 0.38 [s]
+==================
+255) File: molecule-255.sd
+Name: 5323592 conformers: 69
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+256) File: molecule-256.sd
+Name: 5323592 conformers: 35
+Number of hits: 2
+CPU time: 0.15 [s]
+==================
+257) File: molecule-257.sd
+Name: 5323592 conformers: 78
+Number of hits: 1
+CPU time: 0.34 [s]
+==================
+258) File: molecule-258.sd
+Name: 5323592 conformers: 50
+Number of hits: 1
+CPU time: 0.21 [s]
+==================
+259) File: molecule-259.sd
+Name: 5323592 conformers: 34
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+260) File: molecule-260.sd
+Name: 5323592 conformers: 41
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+261) File: molecule-261.sd
+Name: 5323592 conformers: 62
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+262) File: molecule-262.sd
+Name: 5323592 conformers: 70
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+263) File: molecule-263.sd
+Name: 5323592 conformers: 25
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+264) File: molecule-264.sd
+Name: 5323592 conformers: 42
+Number of hits: 3
+CPU time: 0.21 [s]
+==================
+265) File: molecule-265.sd
+Name: 5323592 conformers: 45
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+266) File: molecule-266.sd
+Name: 5323592 conformers: 25
+Number of hits: 1
+CPU time: 0.10 [s]
+==================
+267) File: molecule-267.sd
+Name: 5323592 conformers: 49
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+268) File: molecule-268.sd
+Name: 5323592 conformers: 49
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+269) File: molecule-269.sd
+Name: 5323592 conformers: 48
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+270) File: molecule-270.sd
+Name: 5323592 conformers: 95
+Number of hits: 1
+CPU time: 0.46 [s]
+==================
+271) File: molecule-271.sd
+Name: 5323592 conformers: 65
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+272) File: molecule-272.sd
+Name: 5323592 conformers: 73
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+273) File: molecule-273.sd
+Name: 5323592 conformers: 52
+Number of hits: 0
+CPU time: 0.21 [s]
+==================
+274) File: molecule-274.sd
+Name: 5323592 conformers: 65
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+275) File: molecule-275.sd
+Name: 5323592 conformers: 50
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+276) File: molecule-276.sd
+Name: 5323592 conformers: 78
+Number of hits: 2
+CPU time: 0.31 [s]
+==================
+277) File: molecule-277.sd
+Name: 5323592 conformers: 84
+Number of hits: 2
+CPU time: 0.39 [s]
+==================
+278) File: molecule-278.sd
+Name: 5323592 conformers: 86
+Number of hits: 1
+CPU time: 0.37 [s]
+==================
+279) File: molecule-279.sd
+Name: 5323592 conformers: 87
+Number of hits: 1
+CPU time: 0.38 [s]
+==================
+280) File: molecule-280.sd
+Name: 5323592 conformers: 78
+Number of hits: 1
+CPU time: 0.30 [s]
+==================
+281) File: molecule-281.sd
+Name: 5323592 conformers: 67
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+282) File: molecule-282.sd
+Name: 5323592 conformers: 37
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+283) File: molecule-283.sd
+Name: 5323592 conformers: 60
+Number of hits: 3
+CPU time: 0.27 [s]
+==================
+284) File: molecule-284.sd
+Name: 5323592 conformers: 71
+Number of hits: 1
+CPU time: 0.30 [s]
+==================
+285) File: molecule-285.sd
+Name: 5323592 conformers: 88
+Number of hits: 1
+CPU time: 0.35 [s]
+==================
+286) File: molecule-286.sd
+Name: 5323592 conformers: 75
+Number of hits: 1
+CPU time: 0.35 [s]
+==================
+287) File: molecule-287.sd
+Name: 5323592 conformers: 94
+Number of hits: 1
+CPU time: 0.38 [s]
+==================
+288) File: molecule-288.sd
+Name: 5323592 conformers: 56
+Number of hits: 2
+CPU time: 0.25 [s]
+==================
+289) File: molecule-289.sd
+Name: 5323592 conformers: 79
+Number of hits: 1
+CPU time: 0.35 [s]
+==================
+290) File: molecule-290.sd
+Name: 5323592 conformers: 63
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+291) File: molecule-291.sd
+Name: 5323592 conformers: 70
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+292) File: molecule-292.sd
+Name: 5323592 conformers: 53
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+293) File: molecule-293.sd
+Name: 5323592 conformers: 64
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+294) File: molecule-294.sd
+Name: 5323592 conformers: 53
+Number of hits: 2
+CPU time: 0.23 [s]
+==================
+295) File: molecule-295.sd
+Name: 5323592 conformers: 49
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+296) File: molecule-296.sd
+Name: 5323592 conformers: 35
+Number of hits: 1
+CPU time: 0.14 [s]
+==================
+297) File: molecule-297.sd
+Name: 5323592 conformers: 40
+Number of hits: 1
+CPU time: 0.21 [s]
+==================
+298) File: molecule-298.sd
+Name: 5323592 conformers: 28
+Number of hits: 0
+CPU time: 0.11 [s]
+==================
+299) File: molecule-299.sd
+Name: 5323592 conformers: 95
+Number of hits: 1
+CPU time: 0.37 [s]
+==================
+300) File: molecule-300.sd
+Name: 5323592 conformers: 52
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+301) File: molecule-301.sd
+Name: 5323592 conformers: 43
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+302) File: molecule-302.sd
+Name: 5323592 conformers: 61
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+303) File: molecule-303.sd
+Name: 5323592 conformers: 46
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+304) File: molecule-304.sd
+Name: 5323592 conformers: 85
+Number of hits: 2
+CPU time: 0.32 [s]
+==================
+305) File: molecule-305.sd
+Name: 5323592 conformers: 46
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+306) File: molecule-306.sd
+Name: 5323592 conformers: 53
+Number of hits: 1
+CPU time: 0.23 [s]
+==================
+307) File: molecule-307.sd
+Name: 5323592 conformers: 40
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+308) File: molecule-308.sd
+Name: 5323592 conformers: 82
+Number of hits: 1
+CPU time: 0.34 [s]
+==================
+309) File: molecule-309.sd
+Name: 5323592 conformers: 79
+Number of hits: 2
+CPU time: 0.38 [s]
+==================
+310) File: molecule-310.sd
+Name: 5323592 conformers: 79
+Number of hits: 3
+CPU time: 0.36 [s]
+==================
+311) File: molecule-311.sd
+Name: 5323592 conformers: 102
+Number of hits: 3
+CPU time: 0.45 [s]
+==================
+312) File: molecule-312.sd
+Name: 5323592 conformers: 72
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+313) File: molecule-313.sd
+Name: 5323592 conformers: 85
+Number of hits: 1
+CPU time: 0.39 [s]
+==================
+314) File: molecule-314.sd
+Name: 5323592 conformers: 62
+Number of hits: 2
+CPU time: 0.27 [s]
+==================
+315) File: molecule-315.sd
+Name: 5323592 conformers: 59
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+316) File: molecule-316.sd
+Name: 5323592 conformers: 74
+Number of hits: 2
+CPU time: 0.28 [s]
+==================
+317) File: molecule-317.sd
+Name: 5323592 conformers: 37
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+318) File: molecule-318.sd
+Name: 5323592 conformers: 64
+Number of hits: 1
+CPU time: 0.30 [s]
+==================
+319) File: molecule-319.sd
+Name: 5323592 conformers: 47
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+320) File: molecule-320.sd
+Name: 5323592 conformers: 42
+Number of hits: 2
+CPU time: 0.18 [s]
+==================
+321) File: molecule-321.sd
+Name: 5323592 conformers: 68
+Number of hits: 1
+CPU time: 0.30 [s]
+==================
+322) File: molecule-322.sd
+Name: 5323592 conformers: 29
+Number of hits: 1
+CPU time: 0.12 [s]
+==================
+323) File: molecule-323.sd
+Name: 5323592 conformers: 52
+Number of hits: 1
+CPU time: 0.21 [s]
+==================
+324) File: molecule-324.sd
+Name: 5323592 conformers: 43
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+325) File: molecule-325.sd
+Name: 5323592 conformers: 51
+Number of hits: 1
+CPU time: 0.23 [s]
+==================
+326) File: molecule-326.sd
+Name: 5323592 conformers: 39
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+327) File: molecule-327.sd
+Name: 5323592 conformers: 41
+Number of hits: 2
+CPU time: 0.14 [s]
+==================
+328) File: molecule-328.sd
+Name: 5323592 conformers: 22
+Number of hits: 1
+CPU time: 0.09 [s]
+==================
+329) File: molecule-329.sd
+Name: 5323592 conformers: 42
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+330) File: molecule-330.sd
+Name: 5323592 conformers: 38
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+331) File: molecule-331.sd
+Name: 5323592 conformers: 42
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+332) File: molecule-332.sd
+Name: 5323592 conformers: 166
+Number of hits: 3
+CPU time: 0.65 [s]
+==================
+333) File: molecule-333.sd
+Name: 5323592 conformers: 168
+Number of hits: 1
+CPU time: 0.65 [s]
+==================
+334) File: molecule-334.sd
+Name: 5323592 conformers: 210
+Number of hits: 1
+CPU time: 0.96 [s]
+==================
+335) File: molecule-335.sd
+Name: 5323592 conformers: 90
+Number of hits: 1
+CPU time: 0.37 [s]
+==================
+336) File: molecule-336.sd
+Name: 5323592 conformers: 138
+Number of hits: 2
+CPU time: 0.47 [s]
+==================
+337) File: molecule-337.sd
+Name: 5323592 conformers: 180
+Number of hits: 1
+CPU time: 0.70 [s]
+==================
+338) File: molecule-338.sd
+Name: 5323592 conformers: 172
+Number of hits: 3
+CPU time: 0.75 [s]
+==================
+339) File: molecule-339.sd
+Name: 5323592 conformers: 160
+Number of hits: 1
+CPU time: 0.67 [s]
+==================
+340) File: molecule-340.sd
+Name: 5323592 conformers: 94
+Number of hits: 1
+CPU time: 0.35 [s]
+==================
+341) File: molecule-341.sd
+Name: 5323592 conformers: 193
+Number of hits: 2
+CPU time: 0.83 [s]
+==================
+342) File: molecule-342.sd
+Name: 5323592 conformers: 164
+Number of hits: 1
+CPU time: 0.66 [s]
+==================
+343) File: molecule-343.sd
+Name: 5323592 conformers: 202
+Number of hits: 1
+CPU time: 0.80 [s]
+==================
+344) File: molecule-344.sd
+Name: 5323592 conformers: 173
+Number of hits: 2
+CPU time: 0.60 [s]
+==================
+345) File: molecule-345.sd
+Name: 5323592 conformers: 135
+Number of hits: 1
+CPU time: 0.57 [s]
+==================
+346) File: molecule-346.sd
+Name: 5323592 conformers: 113
+Number of hits: 1
+CPU time: 0.43 [s]
+==================
+347) File: molecule-347.sd
+Name: 5323592 conformers: 164
+Number of hits: 2
+CPU time: 0.66 [s]
+==================
+348) File: molecule-348.sd
+Name: 5323592 conformers: 130
+Number of hits: 1
+CPU time: 0.54 [s]
+==================
+349) File: molecule-349.sd
+Name: 5323592 conformers: 79
+Number of hits: 1
+CPU time: 0.32 [s]
+==================
+350) File: molecule-350.sd
+Name: 5323592 conformers: 71
+Number of hits: 0
+CPU time: 0.37 [s]
+==================
+351) File: molecule-351.sd
+Name: 5323592 conformers: 111
+Number of hits: 1
+CPU time: 0.42 [s]
+==================
+352) File: molecule-352.sd
+Name: 5323592 conformers: 127
+Number of hits: 1
+CPU time: 0.52 [s]
+==================
+353) File: molecule-353.sd
+Name: 5323592 conformers: 126
+Number of hits: 1
+CPU time: 0.53 [s]
+==================
+354) File: molecule-354.sd
+Name: 5323592 conformers: 122
+Number of hits: 1
+CPU time: 0.48 [s]
+==================
+355) File: molecule-355.sd
+Name: 5323592 conformers: 129
+Number of hits: 1
+CPU time: 0.49 [s]
+==================
+356) File: molecule-356.sd
+Name: 5323592 conformers: 168
+Number of hits: 1
+CPU time: 0.62 [s]
+==================
+357) File: molecule-357.sd
+Name: 5323592 conformers: 121
+Number of hits: 1
+CPU time: 0.50 [s]
+==================
+358) File: molecule-358.sd
+Name: 5323592 conformers: 72
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+359) File: molecule-359.sd
+Name: 5323592 conformers: 187
+Number of hits: 1
+CPU time: 0.68 [s]
+==================
+360) File: molecule-360.sd
+Name: 5323592 conformers: 213
+Number of hits: 2
+CPU time: 0.88 [s]
+==================
+361) File: molecule-361.sd
+Name: 5323592 conformers: 228
+Number of hits: 1
+CPU time: 1.06 [s]
+==================
+362) File: molecule-362.sd
+Name: 5323592 conformers: 167
+Number of hits: 1
+CPU time: 0.62 [s]
+==================
+363) File: molecule-363.sd
+Name: 5323592 conformers: 196
+Number of hits: 1
+CPU time: 0.75 [s]
+==================
+364) File: molecule-364.sd
+Name: 5323592 conformers: 118
+Number of hits: 1
+CPU time: 0.45 [s]
+==================
+365) File: molecule-365.sd
+Name: 5323592 conformers: 197
+Number of hits: 1
+CPU time: 0.79 [s]
+==================
+366) File: molecule-366.sd
+Name: 5323592 conformers: 213
+Number of hits: 1
+CPU time: 1.00 [s]
+==================
+367) File: molecule-367.sd
+Name: 5323592 conformers: 193
+Number of hits: 1
+CPU time: 0.77 [s]
+==================
+368) File: molecule-368.sd
+Name: 5323592 conformers: 151
+Number of hits: 1
+CPU time: 0.54 [s]
+==================
+369) File: molecule-369.sd
+Name: 5323592 conformers: 173
+Number of hits: 1
+CPU time: 0.68 [s]
+==================
+370) File: molecule-370.sd
+Name: 5323592 conformers: 131
+Number of hits: 1
+CPU time: 0.57 [s]
+==================
+371) File: molecule-371.sd
+Name: 5323592 conformers: 84
+Number of hits: 1
+CPU time: 0.37 [s]
+==================
+372) File: molecule-372.sd
+Name: 5323592 conformers: 178
+Number of hits: 1
+CPU time: 0.70 [s]
+==================
+373) File: molecule-373.sd
+Name: 5323592 conformers: 209
+Number of hits: 1
+CPU time: 0.96 [s]
+==================
+374) File: molecule-374.sd
+Name: 5323592 conformers: 162
+Number of hits: 1
+CPU time: 0.68 [s]
+==================
+375) File: molecule-375.sd
+Name: 5323592 conformers: 159
+Number of hits: 1
+CPU time: 0.66 [s]
+==================
+376) File: molecule-376.sd
+Name: 5323592 conformers: 127
+Number of hits: 1
+CPU time: 0.45 [s]
+==================
+377) File: molecule-377.sd
+Name: 5323592 conformers: 117
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+378) File: molecule-378.sd
+Name: 5323592 conformers: 126
+Number of hits: 1
+CPU time: 0.48 [s]
+==================
+379) File: molecule-379.sd
+Name: 5323592 conformers: 109
+Number of hits: 1
+CPU time: 0.43 [s]
+==================
+380) File: molecule-380.sd
+Name: 5323592 conformers: 180
+Number of hits: 1
+CPU time: 0.68 [s]
+==================
+381) File: molecule-381.sd
+Name: 5323592 conformers: 137
+Number of hits: 1
+CPU time: 0.55 [s]
+==================
+382) File: molecule-382.sd
+Name: 5323592 conformers: 172
+Number of hits: 1
+CPU time: 0.82 [s]
+==================
+383) File: molecule-383.sd
+Name: 5323592 conformers: 58
+Number of hits: 1
+CPU time: 0.23 [s]
+==================
+384) File: molecule-384.sd
+Name: 5323592 conformers: 181
+Number of hits: 1
+CPU time: 0.74 [s]
+==================
+385) File: molecule-385.sd
+Name: 5323592 conformers: 108
+Number of hits: 1
+CPU time: 0.46 [s]
+==================
+386) File: molecule-386.sd
+Name: 5323592 conformers: 140
+Number of hits: 1
+CPU time: 0.58 [s]
+==================
+387) File: molecule-387.sd
+Name: 5323592 conformers: 102
+Number of hits: 1
+CPU time: 0.41 [s]
+==================
+388) File: molecule-388.sd
+Name: 5323592 conformers: 111
+Number of hits: 2
+CPU time: 0.45 [s]
+==================
+389) File: molecule-389.sd
+Name: 5323592 conformers: 152
+Number of hits: 1
+CPU time: 0.65 [s]
+==================
+390) File: molecule-390.sd
+Name: 5323592 conformers: 168
+Number of hits: 1
+CPU time: 0.67 [s]
+==================
+391) File: molecule-391.sd
+Name: 5323592 conformers: 169
+Number of hits: 1
+CPU time: 0.63 [s]
+==================
+392) File: molecule-392.sd
+Name: 5323592 conformers: 236
+Number of hits: 1
+CPU time: 0.93 [s]
+==================
+393) File: molecule-393.sd
+Name: 5323592 conformers: 208
+Number of hits: 1
+CPU time: 0.98 [s]
+==================
+394) File: molecule-394.sd
+Name: 5323592 conformers: 49
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+395) File: molecule-395.sd
+Name: 5323592 conformers: 116
+Number of hits: 2
+CPU time: 0.44 [s]
+==================
+396) File: molecule-396.sd
+Name: 5323592 conformers: 46
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+397) File: molecule-397.sd
+Name: 5323592 conformers: 55
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+398) File: molecule-398.sd
+Name: 5323592 conformers: 80
+Number of hits: 1
+CPU time: 0.41 [s]
+==================
+399) File: molecule-399.sd
+Name: 5323592 conformers: 58
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+400) File: molecule-400.sd
+Name: 5323592 conformers: 63
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+401) File: molecule-401.sd
+Name: 5323592 conformers: 84
+Number of hits: 1
+CPU time: 0.34 [s]
+==================
+402) File: molecule-402.sd
+Name: 5323592 conformers: 56
+Number of hits: 2
+CPU time: 0.26 [s]
+==================
+403) File: molecule-403.sd
+Name: 5323592 conformers: 43
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+404) File: molecule-404.sd
+Name: 5323592 conformers: 61
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+405) File: molecule-405.sd
+Name: 5323592 conformers: 70
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+406) File: molecule-406.sd
+Name: 5323592 conformers: 58
+Number of hits: 2
+CPU time: 0.26 [s]
+==================
+407) File: molecule-407.sd
+Name: 5323592 conformers: 77
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+408) File: molecule-408.sd
+Name: 5323592 conformers: 110
+Number of hits: 1
+CPU time: 0.44 [s]
+==================
+409) File: molecule-409.sd
+Name: 5323592 conformers: 39
+Number of hits: 0
+CPU time: 0.17 [s]
+==================
+410) File: molecule-410.sd
+Name: 5323592 conformers: 67
+Number of hits: 1
+CPU time: 0.27 [s]
+==================
+411) File: molecule-411.sd
+Name: 5323592 conformers: 41
+Number of hits: 2
+CPU time: 0.18 [s]
+==================
+412) File: molecule-412.sd
+Name: 5323592 conformers: 47
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+413) File: molecule-413.sd
+Name: 5323592 conformers: 73
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+414) File: molecule-414.sd
+Name: 5323592 conformers: 45
+Number of hits: 1
+CPU time: 0.21 [s]
+==================
+415) File: molecule-415.sd
+Name: 5323592 conformers: 54
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+416) File: molecule-416.sd
+Name: 5323592 conformers: 57
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+417) File: molecule-417.sd
+Name: 5323592 conformers: 55
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+418) File: molecule-418.sd
+Name: 5323592 conformers: 43
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+419) File: molecule-419.sd
+Name: 5323592 conformers: 59
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+420) File: molecule-420.sd
+Name: 5323592 conformers: 42
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+421) File: molecule-421.sd
+Name: 5323592 conformers: 61
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+422) File: molecule-422.sd
+Name: 5323592 conformers: 37
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+423) File: molecule-423.sd
+Name: 5323592 conformers: 45
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+424) File: molecule-424.sd
+Name: 5323592 conformers: 38
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+425) File: molecule-425.sd
+Name: 5323592 conformers: 42
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+426) File: molecule-426.sd
+Name: 5323592 conformers: 46
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+427) File: molecule-427.sd
+Name: 5323592 conformers: 64
+Number of hits: 1
+CPU time: 0.27 [s]
+==================
+428) File: molecule-428.sd
+Name: 5323592 conformers: 48
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+429) File: molecule-429.sd
+Name: 5323592 conformers: 44
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+430) File: molecule-430.sd
+Name: 5323592 conformers: 67
+Number of hits: 1
+CPU time: 0.35 [s]
+==================
+431) File: molecule-431.sd
+Name: 5323592 conformers: 63
+Number of hits: 1
+CPU time: 0.31 [s]
+==================
+432) File: molecule-432.sd
+Name: 5323592 conformers: 44
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+433) File: molecule-433.sd
+Name: 5323592 conformers: 80
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+434) File: molecule-434.sd
+Name: 5323592 conformers: 75
+Number of hits: 3
+CPU time: 0.34 [s]
+==================
+435) File: molecule-435.sd
+Name: 5323592 conformers: 53
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+436) File: molecule-436.sd
+Name: 5323592 conformers: 43
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+437) File: molecule-437.sd
+Name: 5323592 conformers: 83
+Number of hits: 1
+CPU time: 0.40 [s]
+==================
+438) File: molecule-438.sd
+Name: 5323592 conformers: 60
+Number of hits: 1
+CPU time: 0.27 [s]
+==================
+439) File: molecule-439.sd
+Name: 5323592 conformers: 96
+Number of hits: 1
+CPU time: 0.43 [s]
+==================
+440) File: molecule-440.sd
+Name: 5323592 conformers: 91
+Number of hits: 1
+CPU time: 0.34 [s]
+==================
+441) File: molecule-441.sd
+Name: 5323592 conformers: 64
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+442) File: molecule-442.sd
+Name: 5323592 conformers: 65
+Number of hits: 2
+CPU time: 0.26 [s]
+==================
+443) File: molecule-443.sd
+Name: 5323592 conformers: 96
+Number of hits: 2
+CPU time: 0.43 [s]
+==================
+444) File: molecule-444.sd
+Name: 5323592 conformers: 64
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+445) File: molecule-445.sd
+Name: 5323592 conformers: 63
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+446) File: molecule-446.sd
+Name: 5323592 conformers: 32
+Number of hits: 1
+CPU time: 0.14 [s]
+==================
+447) File: molecule-447.sd
+Name: 5323592 conformers: 64
+Number of hits: 1
+CPU time: 0.25 [s]
+==================
+448) File: molecule-448.sd
+Name: 5323592 conformers: 58
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+449) File: molecule-449.sd
+Name: 5323592 conformers: 78
+Number of hits: 2
+CPU time: 0.36 [s]
+==================
+450) File: molecule-450.sd
+Name: 5323592 conformers: 51
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+451) File: molecule-451.sd
+Name: 5323592 conformers: 48
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+452) File: molecule-452.sd
+Name: 5323592 conformers: 63
+Number of hits: 1
+CPU time: 0.27 [s]
+==================
+453) File: molecule-453.sd
+Name: 5323592 conformers: 55
+Number of hits: 2
+CPU time: 0.26 [s]
+==================
+454) File: molecule-454.sd
+Name: 5323592 conformers: 39
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+455) File: molecule-455.sd
+Name: 5323592 conformers: 56
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+456) File: molecule-456.sd
+Name: 5323592 conformers: 40
+Number of hits: 1
+CPU time: 0.15 [s]
+==================
+457) File: molecule-457.sd
+Name: 5323592 conformers: 57
+Number of hits: 2
+CPU time: 0.29 [s]
+==================
+458) File: molecule-458.sd
+Name: 5323592 conformers: 37
+Number of hits: 1
+CPU time: 0.18 [s]
+==================
+459) File: molecule-459.sd
+Name: 5323592 conformers: 45
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+460) File: molecule-460.sd
+Name: 6443019 conformers: 9
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+461) File: molecule-461.sd
+Name: 6443019 conformers: 7
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+462) File: molecule-462.sd
+Name: 6443019 conformers: 30
+Number of hits: 1
+CPU time: 0.13 [s]
+==================
+463) File: molecule-463.sd
+Name: 6918840 conformers: 27
+Number of hits: 0
+CPU time: 2.28 [s]
+==================
+464) File: molecule-464.sd
+Name: 6951076 conformers: 62
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+465) File: molecule-465.sd
+Name: 6992261 conformers: 6
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+466) File: molecule-466.sd
+Name: 7074739 conformers: 9
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+467) File: molecule-467.sd
+Name: 7075896 conformers: 13
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+468) File: molecule-468.sd
+Name: 7076347 conformers: 129
+Number of hits: 4
+CPU time: 0.42 [s]
+==================
+469) File: molecule-469.sd
+Name: 7076549 conformers: 21
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+470) File: molecule-470.sd
+Name: 7408474 conformers: 3
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+471) File: molecule-471.sd
+Name: 7855578 conformers: 9
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+472) File: molecule-472.sd
+Name: 9799506 conformers: 15
+Number of hits: 0
+CPU time: 0.13 [s]
+==================
+473) File: molecule-473.sd
+Name: 9799506 conformers: 6
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+474) File: molecule-474.sd
+Name: 9799506 conformers: 23
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+475) File: molecule-475.sd
+Name: 9858729 conformers: 143
+Number of hits: 10
+CPU time: 1.76 [s]
+==================
+476) File: molecule-476.sd
+Name: 9861088 conformers: 13
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+477) File: molecule-477.sd
+Name: 9861088 conformers: 16
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+478) File: molecule-478.sd
+Name: 9861088 conformers: 12
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+479) File: molecule-479.sd
+Name: 9909740 conformers: 254
+Number of hits: 4
+CPU time: 1.55 [s]
+==================
+480) File: molecule-480.sd
+Name: 9909740 conformers: 255
+Number of hits: 2
+CPU time: 1.55 [s]
+==================
+481) File: molecule-481.sd
+Name: 9909740 conformers: 247
+Number of hits: 10
+CPU time: 1.60 [s]
+==================
+482) File: molecule-482.sd
+Name: 9929676 conformers: 255
+Number of hits: 10
+CPU time: 6.24 [s]
+==================
+483) File: molecule-483.sd
+Name: 9929676 conformers: 255
+Number of hits: 10
+CPU time: 6.41 [s]
+==================
+484) File: molecule-484.sd
+Name: 10087955 conformers: 25
+Number of hits: 0
+CPU time: 0.17 [s]
+==================
+485) File: molecule-485.sd
+Name: 10087955 conformers: 25
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+486) File: molecule-486.sd
+Name: 10087955 conformers: 23
+Number of hits: 1
+CPU time: 0.13 [s]
+==================
+487) File: molecule-487.sd
+Name: 10245047 conformers: 29
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+488) File: molecule-488.sd
+Name: 10245047 conformers: 25
+Number of hits: 3
+CPU time: 0.17 [s]
+==================
+489) File: molecule-489.sd
+Name: 10245047 conformers: 19
+Number of hits: 1
+CPU time: 0.10 [s]
+==================
+490) File: molecule-490.sd
+Name: 10317069 conformers: 96
+Number of hits: 1
+CPU time: 0.55 [s]
+==================
+491) File: molecule-491.sd
+Name: 10317069 conformers: 146
+Number of hits: 5
+CPU time: 0.86 [s]
+==================
+492) File: molecule-492.sd
+Name: 10317069 conformers: 9
+Number of hits: 0
+CPU time: 0.06 [s]
+==================
+493) File: molecule-493.sd
+Name: 10317069 conformers: 13
+Number of hits: 0
+CPU time: 0.08 [s]
+==================
+494) File: molecule-494.sd
+Name: 10338075 conformers: 14
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+495) File: molecule-495.sd
+Name: 10338075 conformers: 6
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+496) File: molecule-496.sd
+Name: 10338075 conformers: 24
+Number of hits: 1
+CPU time: 0.16 [s]
+==================
+497) File: molecule-497.sd
+Name: 10947890 conformers: 38
+Number of hits: 1
+CPU time: 0.26 [s]
+==================
+498) File: molecule-498.sd
+Name: 10947890 conformers: 32
+Number of hits: 1
+CPU time: 0.22 [s]
+==================
+499) File: molecule-499.sd
+Name: 10947890 conformers: 13
+Number of hits: 0
+CPU time: 0.08 [s]
+==================
+500) File: molecule-500.sd
+Name: 11024779 conformers: 27
+Number of hits: 0
+CPU time: 0.18 [s]
+==================
+501) File: molecule-501.sd
+Name: 11024779 conformers: 35
+Number of hits: 0
+CPU time: 0.23 [s]
+==================
+502) File: molecule-502.sd
+Name: 11024779 conformers: 22
+Number of hits: 1
+CPU time: 0.13 [s]
+==================
+503) File: molecule-503.sd
+Name: 11046840 conformers: 21
+Number of hits: 1
+CPU time: 0.17 [s]
+==================
+504) File: molecule-504.sd
+Name: 11046840 conformers: 6
+Number of hits: 0
+CPU time: 0.05 [s]
+==================
+505) File: molecule-505.sd
+Name: 11175902 conformers: 252
+Number of hits: 5
+CPU time: 1.05 [s]
+==================
+506) File: molecule-506.sd
+Name: 11175902 conformers: 246
+Number of hits: 7
+CPU time: 1.08 [s]
+==================
+507) File: molecule-507.sd
+Name: 11175902 conformers: 250
+Number of hits: 4
+CPU time: 0.97 [s]
+==================
+508) File: molecule-508.sd
+Name: 11175902 conformers: 252
+Number of hits: 4
+CPU time: 1.01 [s]
+==================
+509) File: molecule-509.sd
+Name: 11258152 conformers: 54
+Number of hits: 1
+CPU time: 0.41 [s]
+==================
+510) File: molecule-510.sd
+Name: 11258152 conformers: 115
+Number of hits: 1
+CPU time: 0.78 [s]
+==================
+511) File: molecule-511.sd
+Name: 11258152 conformers: 53
+Number of hits: 1
+CPU time: 0.43 [s]
+==================
+512) File: molecule-512.sd
+Name: 11258152 conformers: 36
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+513) File: molecule-513.sd
+Name: 11566620 conformers: 81
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+514) File: molecule-514.sd
+Name: 11566620 conformers: 35
+Number of hits: 1
+CPU time: 0.10 [s]
+==================
+515) File: molecule-515.sd
+Name: 11566620 conformers: 3
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+516) File: molecule-516.sd
+Name: 11566620 conformers: 171
+Number of hits: 1
+CPU time: 0.49 [s]
+==================
+517) File: molecule-517.sd
+Name: 11566620 conformers: 42
+Number of hits: 0
+CPU time: 0.12 [s]
+==================
+518) File: molecule-518.sd
+Name: 11723200 conformers: 8
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+519) File: molecule-519.sd
+Name: 11723200 conformers: 14
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+520) File: molecule-520.sd
+Name: 11723200 conformers: 11
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+521) File: molecule-521.sd
+Name: 11902953 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+522) File: molecule-522.sd
+Name: 11937742 conformers: 6
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+523) File: molecule-523.sd
+Name: 12072107 conformers: 21
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+524) File: molecule-524.sd
+Name: 12310637 conformers: 170
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+525) File: molecule-525.sd
+Name: 12719326 conformers: 16
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+526) File: molecule-526.sd
+Name: 12986068 conformers: 24
+Number of hits: 1
+CPU time: 0.13 [s]
+==================
+527) File: molecule-527.sd
+Name: 12986068 conformers: 6
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+528) File: molecule-528.sd
+Name: 12986068 conformers: 37
+Number of hits: 1
+CPU time: 0.20 [s]
+==================
+529) File: molecule-529.sd
+Name: 13654640 conformers: 9
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+530) File: molecule-530.sd
+Name: 13783105 conformers: 53
+Number of hits: 1
+CPU time: 0.11 [s]
+==================
+531) File: molecule-531.sd
+Name: 13783106 conformers: 7
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+532) File: molecule-532.sd
+Name: 13783108 conformers: 21
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+533) File: molecule-533.sd
+Name: 13879946 conformers: 24
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+534) File: molecule-534.sd
+Name: 13879951 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+535) File: molecule-535.sd
+Name: 13941336 conformers: 18
+Number of hits: 1
+CPU time: 0.09 [s]
+==================
+536) File: molecule-536.sd
+Name: 14056365 conformers: 144
+Number of hits: 1
+CPU time: 0.34 [s]
+==================
+537) File: molecule-537.sd
+Name: 14162699 conformers: 31
+Number of hits: 1
+CPU time: 0.37 [s]
+==================
+538) File: molecule-538.sd
+Name: 14162699 conformers: 134
+Number of hits: 3
+CPU time: 1.53 [s]
+==================
+539) File: molecule-539.sd
+Name: 14162699 conformers: 42
+Number of hits: 1
+CPU time: 0.52 [s]
+==================
+540) File: molecule-540.sd
+Name: 14162699 conformers: 90
+Number of hits: 1
+CPU time: 1.11 [s]
+==================
+541) File: molecule-541.sd
+Name: 14162699 conformers: 70
+Number of hits: 0
+CPU time: 0.79 [s]
+==================
+542) File: molecule-542.sd
+Name: 14162699 conformers: 76
+Number of hits: 0
+CPU time: 0.93 [s]
+==================
+543) File: molecule-543.sd
+Name: 14162699 conformers: 77
+Number of hits: 1
+CPU time: 0.95 [s]
+==================
+544) File: molecule-544.sd
+Name: 15959354 conformers: 52
+Number of hits: 1
+CPU time: 0.33 [s]
+==================
+545) File: molecule-545.sd
+Name: 15959354 conformers: 50
+Number of hits: 1
+CPU time: 0.36 [s]
+==================
+546) File: molecule-546.sd
+Name: 15959354 conformers: 58
+Number of hits: 1
+CPU time: 0.41 [s]
+==================
+547) File: molecule-547.sd
+Name: 15959354 conformers: 4
+Number of hits: 0
+CPU time: 0.03 [s]
+==================
+548) File: molecule-548.sd
+Name: 16401639 conformers: 30
+Number of hits: 2
+CPU time: 0.92 [s]
+==================
+549) File: molecule-549.sd
+Name: 16401639 conformers: 9
+Number of hits: 0
+CPU time: 0.30 [s]
+==================
+550) File: molecule-550.sd
+Name: 21575008 conformers: 136
+Number of hits: 2
+CPU time: 12.22 [s]
+==================
+551) File: molecule-551.sd
+Name: 21593623 conformers: 27
+Number of hits: 0
+CPU time: 1.38 [s]
+==================
+552) File: molecule-552.sd
+Name: 21593623 conformers: 25
+Number of hits: 0
+CPU time: 1.37 [s]
+==================
+553) File: molecule-553.sd
+Name: 21594782 conformers: 254
+Number of hits: 7
+CPU time: 1.28 [s]
+==================
+554) File: molecule-554.sd
+Name: 21594782 conformers: 254
+Number of hits: 4
+CPU time: 1.18 [s]
+==================
+555) File: molecule-555.sd
+Name: 21594782 conformers: 226
+Number of hits: 3
+CPU time: 1.01 [s]
+==================
+556) File: molecule-556.sd
+Name: 21594782 conformers: 255
+Number of hits: 3
+CPU time: 1.18 [s]
+==================
+557) File: molecule-557.sd
+Name: 22890058 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+558) File: molecule-558.sd
+Name: 22890058 conformers: 2
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+559) File: molecule-559.sd
+Name: 23250007 conformers: 94
+Number of hits: 1
+CPU time: 0.61 [s]
+==================
+560) File: molecule-560.sd
+Name: 23250007 conformers: 215
+Number of hits: 1
+CPU time: 1.51 [s]
+==================
+561) File: molecule-561.sd
+Name: 23250007 conformers: 15
+Number of hits: 0
+CPU time: 0.12 [s]
+==================
+562) File: molecule-562.sd
+Name: 23250007 conformers: 14
+Number of hits: 0
+CPU time: 0.09 [s]
+==================
+563) File: molecule-563.sd
+Name: 23250008 conformers: 226
+Number of hits: 7
+CPU time: 2.23 [s]
+==================
+564) File: molecule-564.sd
+Name: 23250008 conformers: 80
+Number of hits: 1
+CPU time: 0.77 [s]
+==================
+565) File: molecule-565.sd
+Name: 23250008 conformers: 70
+Number of hits: 3
+CPU time: 0.84 [s]
+==================
+566) File: molecule-566.sd
+Name: 23250008 conformers: 104
+Number of hits: 2
+CPU time: 1.07 [s]
+==================
+567) File: molecule-567.sd
+Name: 23251195 conformers: 86
+Number of hits: 10
+CPU time: 0.40 [s]
+==================
+568) File: molecule-568.sd
+Name: 23251195 conformers: 116
+Number of hits: 10
+CPU time: 0.66 [s]
+==================
+569) File: molecule-569.sd
+Name: 23251201 conformers: 8
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+570) File: molecule-570.sd
+Name: 23251201 conformers: 2
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+571) File: molecule-571.sd
+Name: 23251201 conformers: 12
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+572) File: molecule-572.sd
+Name: 23251201 conformers: 6
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+573) File: molecule-573.sd
+Name: 23251201 conformers: 12
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+574) File: molecule-574.sd
+Name: 23251203 conformers: 13
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+575) File: molecule-575.sd
+Name: 23251203 conformers: 3
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+576) File: molecule-576.sd
+Name: 23251203 conformers: 23
+Number of hits: 1
+CPU time: 0.12 [s]
+==================
+577) File: molecule-577.sd
+Name: 23251204 conformers: 15
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+578) File: molecule-578.sd
+Name: 23251204 conformers: 6
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+579) File: molecule-579.sd
+Name: 23251204 conformers: 28
+Number of hits: 1
+CPU time: 0.14 [s]
+==================
+580) File: molecule-580.sd
+Name: 24721373 conformers: 45
+Number of hits: 0
+CPU time: 1.22 [s]
+==================
+581) File: molecule-581.sd
+Name: 25001841 conformers: 11
+Number of hits: 0
+CPU time: 0.15 [s]
+==================
+582) File: molecule-582.sd
+Name: 25001841 conformers: 8
+Number of hits: 0
+CPU time: 0.11 [s]
+==================
+583) File: molecule-583.sd
+Name: 25001841 conformers: 27
+Number of hits: 0
+CPU time: 0.38 [s]
+==================
+584) File: molecule-584.sd
+Name: 25001841 conformers: 52
+Number of hits: 0
+CPU time: 0.68 [s]
+==================
+585) File: molecule-585.sd
+Name: 25220884 conformers: 58
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+586) File: molecule-586.sd
+Name: 46173916 conformers: 98
+Number of hits: 0
+CPU time: 11.90 [s]
+==================
+587) File: molecule-587.sd
+Name: 46849638 conformers: 6
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+588) File: molecule-588.sd
+Name: 46849639 conformers: 17
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+589) File: molecule-589.sd
+Name: 56929107 conformers: 55
+Number of hits: 1
+CPU time: 0.11 [s]
+==================
+590) File: molecule-590.sd
+Name: 56968444 conformers: 255
+Number of hits: 10
+CPU time: 4.24 [s]
+==================
+591) File: molecule-591.sd
+Name: 56968444 conformers: 255
+Number of hits: 10
+CPU time: 4.16 [s]
+==================
+592) File: molecule-592.sd
+Name: 57387219 conformers: 14
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+593) File: molecule-593.sd
+Name: 58473841 conformers: 249
+Number of hits: 2
+CPU time: 0.93 [s]
+==================
+594) File: molecule-594.sd
+Name: 58473846 conformers: 252
+Number of hits: 3
+CPU time: 1.09 [s]
+==================
+595) File: molecule-595.sd
+Name: 58473849 conformers: 252
+Number of hits: 3
+CPU time: 0.85 [s]
+==================
+596) File: molecule-596.sd
+Name: 60208888 conformers: 67
+Number of hits: 0
+CPU time: 5.83 [s]
+==================
+597) File: molecule-597.sd
+Name: 67117572 conformers: 17
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+598) File: molecule-598.sd
+Name: 67117572 conformers: 4
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+599) File: molecule-599.sd
+Name: 67117575 conformers: 2
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+600) File: molecule-600.sd
+Name: 67117586 conformers: 5
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+601) File: molecule-601.sd
+Name: 71359704 conformers: 25
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+602) File: molecule-602.sd
+Name: 71508173 conformers: 91
+Number of hits: 0
+CPU time: 11.04 [s]
+==================
+603) File: molecule-603.sd
+Name: 71581001 conformers: 68
+Number of hits: 0
+CPU time: 11.19 [s]
+==================
+604) File: molecule-604.sd
+Name: 71581002 conformers: 44
+Number of hits: 0
+CPU time: 10.93 [s]
+==================
+605) File: molecule-605.sd
+Name: 71773169 conformers: 37
+Number of hits: 0
+CPU time: 5.40 [s]
+==================
+606) File: molecule-606.sd
+Name: 72941582 conformers: 34
+Number of hits: 0
+CPU time: 1.75 [s]
+==================
+607) File: molecule-607.sd
+Name: 88879608 conformers: 255
+Number of hits: 10
+CPU time: 6.76 [s]
+==================
+608) File: molecule-608.sd
+Name: 88879608 conformers: 255
+Number of hits: 10
+CPU time: 6.54 [s]
+==================
+609) File: molecule-609.sd
+Name: 88879608 conformers: 255
+Number of hits: 10
+CPU time: 6.39 [s]
+==================
+610) File: molecule-610.sd
+Name: 88879608 conformers: 255
+Number of hits: 10
+CPU time: 6.56 [s]
+==================
+611) File: molecule-611.sd
+Name: 91064206 conformers: 62
+Number of hits: 1
+CPU time: 0.10 [s]
+==================
+612) File: molecule-612.sd
+Name: 101129992 conformers: 111
+Number of hits: 5
+CPU time: 0.28 [s]
+==================
+613) File: molecule-613.sd
+Name: 101256943 conformers: 147
+Number of hits: 10
+CPU time: 1.45 [s]
+==================
+614) File: molecule-614.sd
+Name: 101445018 conformers: 67
+Number of hits: 1
+CPU time: 0.14 [s]
+==================
+615) File: molecule-615.sd
+Name: 101491236 conformers: 191
+Number of hits: 1
+CPU time: 0.60 [s]
+==================
+616) File: molecule-616.sd
+Name: 101491239 conformers: 60
+Number of hits: 1
+CPU time: 0.28 [s]
+==================
+617) File: molecule-617.sd
+Name: 101491242 conformers: 110
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+618) File: molecule-618.sd
+Name: 102261321 conformers: 148
+Number of hits: 3
+CPU time: 0.35 [s]
+==================
+619) File: molecule-619.sd
+Name: 122225045 conformers: 6
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+620) File: molecule-620.sd
+Name: 122363508 conformers: 162
+Number of hits: 3
+CPU time: 1.45 [s]
+==================
+621) File: molecule-621.sd
+Name: 122363508 conformers: 255
+Number of hits: 2
+CPU time: 2.15 [s]
+==================
+622) File: molecule-622.sd
+Name: 122363508 conformers: 246
+Number of hits: 7
+CPU time: 2.13 [s]
+==================
+623) File: molecule-623.sd
+Name: 122363509 conformers: 239
+Number of hits: 5
+CPU time: 2.19 [s]
+==================
+624) File: molecule-624.sd
+Name: 122363509 conformers: 248
+Number of hits: 5
+CPU time: 2.18 [s]
+==================
+625) File: molecule-625.sd
+Name: 122363509 conformers: 240
+Number of hits: 5
+CPU time: 2.17 [s]
+==================
+626) File: molecule-626.sd
+Name: 122363510 conformers: 214
+Number of hits: 2
+CPU time: 1.83 [s]
+==================
+627) File: molecule-627.sd
+Name: 122363510 conformers: 77
+Number of hits: 1
+CPU time: 0.64 [s]
+==================
+628) File: molecule-628.sd
+Name: 122363510 conformers: 85
+Number of hits: 1
+CPU time: 0.80 [s]
+==================
+629) File: molecule-629.sd
+Name: 122363510 conformers: 41
+Number of hits: 2
+CPU time: 0.38 [s]
+==================
+630) File: molecule-630.sd
+Name: 122363511 conformers: 94
+Number of hits: 3
+CPU time: 0.58 [s]
+==================
+631) File: molecule-631.sd
+Name: 122363511 conformers: 114
+Number of hits: 5
+CPU time: 0.81 [s]
+==================
+632) File: molecule-632.sd
+Name: 122363512 conformers: 105
+Number of hits: 2
+CPU time: 0.89 [s]
+==================
+633) File: molecule-633.sd
+Name: 122363512 conformers: 54
+Number of hits: 1
+CPU time: 0.47 [s]
+==================
+634) File: molecule-634.sd
+Name: 122363512 conformers: 83
+Number of hits: 1
+CPU time: 0.73 [s]
+==================
+635) File: molecule-635.sd
+Name: 122363513 conformers: 188
+Number of hits: 5
+CPU time: 1.09 [s]
+==================
+636) File: molecule-636.sd
+Name: 122363513 conformers: 121
+Number of hits: 2
+CPU time: 0.69 [s]
+==================
+637) File: molecule-637.sd
+Name: 122363513 conformers: 3
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+638) File: molecule-638.sd
+Name: 122363513 conformers: 16
+Number of hits: 1
+CPU time: 0.10 [s]
+==================
+639) File: molecule-639.sd
+Name: 122363514 conformers: 92
+Number of hits: 1
+CPU time: 0.63 [s]
+==================
+640) File: molecule-640.sd
+Name: 122363514 conformers: 138
+Number of hits: 1
+CPU time: 0.98 [s]
+==================
+641) File: molecule-641.sd
+Name: 122363514 conformers: 79
+Number of hits: 1
+CPU time: 0.69 [s]
+==================
+642) File: molecule-642.sd
+Name: 122363514 conformers: 58
+Number of hits: 1
+CPU time: 0.44 [s]
+==================
+643) File: molecule-643.sd
+Name: 122363515 conformers: 187
+Number of hits: 10
+CPU time: 0.98 [s]
+==================
+644) File: molecule-644.sd
+Name: 122363515 conformers: 84
+Number of hits: 6
+CPU time: 0.52 [s]
+==================
+645) File: molecule-645.sd
+Name: 122363516 conformers: 20
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+646) File: molecule-646.sd
+Name: 122363516 conformers: 40
+Number of hits: 4
+CPU time: 0.09 [s]
+==================
+647) File: molecule-647.sd
+Name: 122363516 conformers: 62
+Number of hits: 2
+CPU time: 0.13 [s]
+==================
+648) File: molecule-648.sd
+Name: 126558484 conformers: 14
+Number of hits: 0
+CPU time: 0.07 [s]
+==================
+649) File: molecule-649.sd
+Name: 132515677 conformers: 254
+Number of hits: 10
+CPU time: 2.00 [s]
+==================
+650) File: molecule-650.sd
+Name: 132515678 conformers: 52
+Number of hits: 1
+CPU time: 0.11 [s]
+==================
+651) File: molecule-651.sd
+Name: 44611569 conformers: 21
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+652) File: molecule-652.sd
+Name: 44611569 conformers: 21
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+653) File: molecule-653.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 2.54 [s]
+==================
+654) File: molecule-654.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 2.75 [s]
+==================
+655) File: molecule-655.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 3.01 [s]
+==================
+656) File: molecule-656.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 3.04 [s]
+==================
+657) File: molecule-657.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 2.69 [s]
+==================
+658) File: molecule-658.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 2.91 [s]
+==================
+659) File: molecule-659.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 3.06 [s]
+==================
+660) File: molecule-660.sd
+Name: 184021992 conformers: 255
+Number of hits: 10
+CPU time: 2.98 [s]
+==================
+661) File: molecule-661.sd
+Name: 289 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+662) File: molecule-662.sd
+Name: 340 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+663) File: molecule-663.sd
+Name: 586 conformers: 22
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+664) File: molecule-664.sd
+Name: 790 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+665) File: molecule-665.sd
+Name: 790 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+666) File: molecule-666.sd
+Name: 790 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+667) File: molecule-667.sd
+Name: 790 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+668) File: molecule-668.sd
+Name: 790 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+669) File: molecule-669.sd
+Name: 795 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+670) File: molecule-670.sd
+Name: 795 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+671) File: molecule-671.sd
+Name: 1048 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+672) File: molecule-672.sd
+Name: 1057 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+673) File: molecule-673.sd
+Name: 1188 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+674) File: molecule-674.sd
+Name: 1188 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+675) File: molecule-675.sd
+Name: 1188 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+676) File: molecule-676.sd
+Name: 1188 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+677) File: molecule-677.sd
+Name: 1188 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+678) File: molecule-678.sd
+Name: 1188 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+679) File: molecule-679.sd
+Name: 1188 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+680) File: molecule-680.sd
+Name: 1188 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+681) File: molecule-681.sd
+Name: 1188 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+682) File: molecule-682.sd
+Name: 5054 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+683) File: molecule-683.sd
+Name: 5962 conformers: 91
+Number of hits: 1
+CPU time: 0.09 [s]
+==================
+684) File: molecule-684.sd
+Name: 6021 conformers: 41
+Number of hits: 0
+CPU time: 0.07 [s]
+==================
+685) File: molecule-685.sd
+Name: 6021 conformers: 38
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+686) File: molecule-686.sd
+Name: 6021 conformers: 37
+Number of hits: 1
+CPU time: 0.07 [s]
+==================
+687) File: molecule-687.sd
+Name: 6106 conformers: 41
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+688) File: molecule-688.sd
+Name: 6140 conformers: 29
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+689) File: molecule-689.sd
+Name: 6274 conformers: 48
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+690) File: molecule-690.sd
+Name: 6274 conformers: 45
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+691) File: molecule-691.sd
+Name: 6306 conformers: 33
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+692) File: molecule-692.sd
+Name: 6322 conformers: 47
+Number of hits: 1
+CPU time: 0.04 [s]
+==================
+693) File: molecule-693.sd
+Name: 6322 conformers: 27
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+694) File: molecule-694.sd
+Name: 6322 conformers: 61
+Number of hits: 1
+CPU time: 0.05 [s]
+==================
+695) File: molecule-695.sd
+Name: 9064 conformers: 9
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+696) File: molecule-696.sd
+Name: 9958 conformers: 1
+Number of hits: 1
+CPU time: 0.00 [s]
+==================
+697) File: molecule-697.sd
+Name: 10621 conformers: 84
+Number of hits: 3
+CPU time: 1.81 [s]
+==================
+698) File: molecule-698.sd
+Name: 10621 conformers: 148
+Number of hits: 2
+CPU time: 3.31 [s]
+==================
+699) File: molecule-699.sd
+Name: 10787 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+700) File: molecule-700.sd
+Name: 60961 conformers: 31
+Number of hits: 1
+CPU time: 0.05 [s]
+==================
+701) File: molecule-701.sd
+Name: 60961 conformers: 38
+Number of hits: 0
+CPU time: 0.06 [s]
+==================
+702) File: molecule-702.sd
+Name: 60961 conformers: 36
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+703) File: molecule-703.sd
+Name: 65064 conformers: 22
+Number of hits: 0
+CPU time: 0.13 [s]
+==================
+704) File: molecule-704.sd
+Name: 65064 conformers: 24
+Number of hits: 0
+CPU time: 0.12 [s]
+==================
+705) File: molecule-705.sd
+Name: 65064 conformers: 28
+Number of hits: 0
+CPU time: 0.15 [s]
+==================
+706) File: molecule-706.sd
+Name: 65064 conformers: 26
+Number of hits: 0
+CPU time: 0.14 [s]
+==================
+707) File: molecule-707.sd
+Name: 65084 conformers: 5
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+708) File: molecule-708.sd
+Name: 65084 conformers: 8
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+709) File: molecule-709.sd
+Name: 68077 conformers: 3
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+710) File: molecule-710.sd
+Name: 72276 conformers: 7
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+711) File: molecule-711.sd
+Name: 72277 conformers: 5
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+712) File: molecule-712.sd
+Name: 72277 conformers: 8
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+713) File: molecule-713.sd
+Name: 72281 conformers: 19
+Number of hits: 1
+CPU time: 0.05 [s]
+==================
+714) File: molecule-714.sd
+Name: 72281 conformers: 20
+Number of hits: 1
+CPU time: 0.08 [s]
+==================
+715) File: molecule-715.sd
+Name: 72281 conformers: 21
+Number of hits: 0
+CPU time: 0.06 [s]
+==================
+716) File: molecule-716.sd
+Name: 72344 conformers: 8
+Number of hits: 0
+CPU time: 0.04 [s]
+==================
+717) File: molecule-717.sd
+Name: 72625 conformers: 252
+Number of hits: 8
+CPU time: 1.16 [s]
+==================
+718) File: molecule-718.sd
+Name: 72625 conformers: 255
+Number of hits: 10
+CPU time: 1.25 [s]
+==================
+719) File: molecule-719.sd
+Name: 72625 conformers: 242
+Number of hits: 10
+CPU time: 1.08 [s]
+==================
+720) File: molecule-720.sd
+Name: 83489 conformers: 131
+Number of hits: 1
+CPU time: 2.40 [s]
+==================
+721) File: molecule-721.sd
+Name: 83489 conformers: 112
+Number of hits: 0
+CPU time: 2.06 [s]
+==================
+722) File: molecule-722.sd
+Name: 92836 conformers: 255
+Number of hits: 10
+CPU time: 2.20 [s]
+==================
+723) File: molecule-723.sd
+Name: 92836 conformers: 255
+Number of hits: 10
+CPU time: 2.27 [s]
+==================
+724) File: molecule-724.sd
+Name: 101799 conformers: 77
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+725) File: molecule-725.sd
+Name: 107905 conformers: 30
+Number of hits: 0
+CPU time: 0.17 [s]
+==================
+726) File: molecule-726.sd
+Name: 107905 conformers: 32
+Number of hits: 0
+CPU time: 0.17 [s]
+==================
+727) File: molecule-727.sd
+Name: 114627 conformers: 138
+Number of hits: 3
+CPU time: 2.32 [s]
+==================
+728) File: molecule-728.sd
+Name: 114627 conformers: 116
+Number of hits: 1
+CPU time: 1.96 [s]
+==================
+729) File: molecule-729.sd
+Name: 114776 conformers: 22
+Number of hits: 0
+CPU time: 0.17 [s]
+==================
+730) File: molecule-730.sd
+Name: 114776 conformers: 22
+Number of hits: 0
+CPU time: 0.16 [s]
+==================
+731) File: molecule-731.sd
+Name: 114776 conformers: 51
+Number of hits: 0
+CPU time: 0.35 [s]
+==================
+732) File: molecule-732.sd
+Name: 114776 conformers: 10
+Number of hits: 0
+CPU time: 0.07 [s]
+==================
+733) File: molecule-733.sd
+Name: 122738 conformers: 85
+Number of hits: 0
+CPU time: 1.04 [s]
+==================
+734) File: molecule-734.sd
+Name: 122738 conformers: 152
+Number of hits: 1
+CPU time: 1.93 [s]
+==================
+735) File: molecule-735.sd
+Name: 147394 conformers: 166
+Number of hits: 1
+CPU time: 1.70 [s]
+==================
+736) File: molecule-736.sd
+Name: 147394 conformers: 169
+Number of hits: 1
+CPU time: 1.72 [s]
+==================
+737) File: molecule-737.sd
+Name: 153001 conformers: 253
+Number of hits: 10
+CPU time: 3.10 [s]
+==================
+738) File: molecule-738.sd
+Name: 153001 conformers: 254
+Number of hits: 10
+CPU time: 2.83 [s]
+==================
+739) File: molecule-739.sd
+Name: 153001 conformers: 205
+Number of hits: 10
+CPU time: 2.26 [s]
+==================
+740) File: molecule-740.sd
+Name: 153001 conformers: 254
+Number of hits: 10
+CPU time: 2.87 [s]
+==================
+741) File: molecule-741.sd
+Name: 153001 conformers: 147
+Number of hits: 10
+CPU time: 1.69 [s]
+==================
+742) File: molecule-742.sd
+Name: 153001 conformers: 136
+Number of hits: 10
+CPU time: 1.63 [s]
+==================
+743) File: molecule-743.sd
+Name: 153001 conformers: 203
+Number of hits: 10
+CPU time: 2.37 [s]
+==================
+744) File: molecule-744.sd
+Name: 153001 conformers: 92
+Number of hits: 10
+CPU time: 1.11 [s]
+==================
+745) File: molecule-745.sd
+Name: 153001 conformers: 94
+Number of hits: 10
+CPU time: 1.17 [s]
+==================
+746) File: molecule-746.sd
+Name: 153001 conformers: 253
+Number of hits: 10
+CPU time: 2.97 [s]
+==================
+747) File: molecule-747.sd
+Name: 153001 conformers: 146
+Number of hits: 10
+CPU time: 1.76 [s]
+==================
+748) File: molecule-748.sd
+Name: 153001 conformers: 115
+Number of hits: 10
+CPU time: 1.42 [s]
+==================
+749) File: molecule-749.sd
+Name: 153001 conformers: 188
+Number of hits: 10
+CPU time: 2.28 [s]
+==================
+750) File: molecule-750.sd
+Name: 153001 conformers: 218
+Number of hits: 10
+CPU time: 2.61 [s]
+==================
+751) File: molecule-751.sd
+Name: 153001 conformers: 255
+Number of hits: 10
+CPU time: 3.17 [s]
+==================
+752) File: molecule-752.sd
+Name: 161557 conformers: 6
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+753) File: molecule-753.sd
+Name: 161557 conformers: 7
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+754) File: molecule-754.sd
+Name: 161557 conformers: 7
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+755) File: molecule-755.sd
+Name: 161557 conformers: 10
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+756) File: molecule-756.sd
+Name: 161557 conformers: 8
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+757) File: molecule-757.sd
+Name: 161557 conformers: 8
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+758) File: molecule-758.sd
+Name: 199472 conformers: 31
+Number of hits: 0
+CPU time: 0.21 [s]
+==================
+759) File: molecule-759.sd
+Name: 199472 conformers: 32
+Number of hits: 0
+CPU time: 0.20 [s]
+==================
+760) File: molecule-760.sd
+Name: 199472 conformers: 41
+Number of hits: 0
+CPU time: 0.27 [s]
+==================
+761) File: molecule-761.sd
+Name: 199472 conformers: 31
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+762) File: molecule-762.sd
+Name: 358832 conformers: 19
+Number of hits: 0
+CPU time: 0.10 [s]
+==================
+763) File: molecule-763.sd
+Name: 358832 conformers: 10
+Number of hits: 1
+CPU time: 0.06 [s]
+==================
+764) File: molecule-764.sd
+Name: 373677 conformers: 253
+Number of hits: 4
+CPU time: 1.23 [s]
+==================
+765) File: molecule-765.sd
+Name: 373677 conformers: 254
+Number of hits: 1
+CPU time: 1.30 [s]
+==================
+766) File: molecule-766.sd
+Name: 373677 conformers: 253
+Number of hits: 1
+CPU time: 1.31 [s]
+==================
+767) File: molecule-767.sd
+Name: 439246 conformers: 5
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+768) File: molecule-768.sd
+Name: 439246 conformers: 7
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+769) File: molecule-769.sd
+Name: 439246 conformers: 7
+Number of hits: 1
+CPU time: 0.02 [s]
+==================
+770) File: molecule-770.sd
+Name: 442431 conformers: 106
+Number of hits: 1
+CPU time: 1.99 [s]
+==================
+771) File: molecule-771.sd
+Name: 442431 conformers: 136
+Number of hits: 2
+CPU time: 2.62 [s]
+==================
+772) File: molecule-772.sd
+Name: 445238 conformers: 19
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+773) File: molecule-773.sd
+Name: 656678 conformers: 43
+Number of hits: 3
+CPU time: 0.24 [s]
+==================
+774) File: molecule-774.sd
+Name: 656678 conformers: 36
+Number of hits: 2
+CPU time: 0.14 [s]
+==================
+775) File: molecule-775.sd
+Name: 656678 conformers: 60
+Number of hits: 4
+CPU time: 0.32 [s]
+==================
+776) File: molecule-776.sd
+Name: 656678 conformers: 66
+Number of hits: 4
+CPU time: 0.25 [s]
+==================
+777) File: molecule-777.sd
+Name: 656678 conformers: 45
+Number of hits: 2
+CPU time: 0.26 [s]
+==================
+778) File: molecule-778.sd
+Name: 656678 conformers: 32
+Number of hits: 1
+CPU time: 0.13 [s]
+==================
+779) File: molecule-779.sd
+Name: 656678 conformers: 43
+Number of hits: 2
+CPU time: 0.26 [s]
+==================
+780) File: molecule-780.sd
+Name: 656678 conformers: 71
+Number of hits: 2
+CPU time: 0.28 [s]
+==================
+781) File: molecule-781.sd
+Name: 5280343 conformers: 2
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+782) File: molecule-782.sd
+Name: 5280343 conformers: 2
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+783) File: molecule-783.sd
+Name: 5280343 conformers: 2
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+784) File: molecule-784.sd
+Name: 5280343 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+785) File: molecule-785.sd
+Name: 5280441 conformers: 10
+Number of hits: 0
+CPU time: 0.06 [s]
+==================
+786) File: molecule-786.sd
+Name: 5280441 conformers: 11
+Number of hits: 0
+CPU time: 0.07 [s]
+==================
+787) File: molecule-787.sd
+Name: 5280441 conformers: 12
+Number of hits: 0
+CPU time: 0.07 [s]
+==================
+788) File: molecule-788.sd
+Name: 5280441 conformers: 33
+Number of hits: 0
+CPU time: 0.18 [s]
+==================
+789) File: molecule-789.sd
+Name: 5280441 conformers: 20
+Number of hits: 4
+CPU time: 0.13 [s]
+==================
+790) File: molecule-790.sd
+Name: 5280441 conformers: 14
+Number of hits: 0
+CPU time: 0.08 [s]
+==================
+791) File: molecule-791.sd
+Name: 5280441 conformers: 38
+Number of hits: 1
+CPU time: 0.23 [s]
+==================
+792) File: molecule-792.sd
+Name: 5280441 conformers: 18
+Number of hits: 2
+CPU time: 0.11 [s]
+==================
+793) File: molecule-793.sd
+Name: 5280441 conformers: 17
+Number of hits: 0
+CPU time: 0.10 [s]
+==================
+794) File: molecule-794.sd
+Name: 5280450 conformers: 255
+Number of hits: 10
+CPU time: 2.90 [s]
+==================
+795) File: molecule-795.sd
+Name: 5280637 conformers: 94
+Number of hits: 1
+CPU time: 0.81 [s]
+==================
+796) File: molecule-796.sd
+Name: 5280637 conformers: 68
+Number of hits: 0
+CPU time: 0.55 [s]
+==================
+797) File: molecule-797.sd
+Name: 5280637 conformers: 47
+Number of hits: 1
+CPU time: 0.38 [s]
+==================
+798) File: molecule-798.sd
+Name: 5280804 conformers: 40
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+799) File: molecule-799.sd
+Name: 5280804 conformers: 24
+Number of hits: 0
+CPU time: 0.16 [s]
+==================
+800) File: molecule-800.sd
+Name: 5280804 conformers: 23
+Number of hits: 0
+CPU time: 0.16 [s]
+==================
+801) File: molecule-801.sd
+Name: 5280804 conformers: 1
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+802) File: molecule-802.sd
+Name: 5280805 conformers: 22
+Number of hits: 0
+CPU time: 0.33 [s]
+==================
+803) File: molecule-803.sd
+Name: 5280805 conformers: 13
+Number of hits: 0
+CPU time: 0.24 [s]
+==================
+804) File: molecule-804.sd
+Name: 5280805 conformers: 5
+Number of hits: 0
+CPU time: 0.10 [s]
+==================
+805) File: molecule-805.sd
+Name: 5280805 conformers: 85
+Number of hits: 2
+CPU time: 1.05 [s]
+==================
+806) File: molecule-806.sd
+Name: 5280863 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+807) File: molecule-807.sd
+Name: 5280863 conformers: 3
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+808) File: molecule-808.sd
+Name: 5280863 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+809) File: molecule-809.sd
+Name: 5280863 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+810) File: molecule-810.sd
+Name: 5280863 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+811) File: molecule-811.sd
+Name: 5280863 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+812) File: molecule-812.sd
+Name: 5280863 conformers: 2
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+813) File: molecule-813.sd
+Name: 5281613 conformers: 99
+Number of hits: 1
+CPU time: 2.22 [s]
+==================
+814) File: molecule-814.sd
+Name: 5281613 conformers: 118
+Number of hits: 1
+CPU time: 2.71 [s]
+==================
+815) File: molecule-815.sd
+Name: 5281643 conformers: 36
+Number of hits: 1
+CPU time: 0.24 [s]
+==================
+816) File: molecule-816.sd
+Name: 5281643 conformers: 24
+Number of hits: 1
+CPU time: 0.19 [s]
+==================
+817) File: molecule-817.sd
+Name: 5281643 conformers: 27
+Number of hits: 0
+CPU time: 0.20 [s]
+==================
+818) File: molecule-818.sd
+Name: 5281643 conformers: 5
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+819) File: molecule-819.sd
+Name: 5281672 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+820) File: molecule-820.sd
+Name: 5281672 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+821) File: molecule-821.sd
+Name: 5281672 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+822) File: molecule-822.sd
+Name: 5281672 conformers: 3
+Number of hits: 0
+CPU time: 0.01 [s]
+==================
+823) File: molecule-823.sd
+Name: 5281675 conformers: 20
+Number of hits: 0
+CPU time: 0.11 [s]
+==================
+824) File: molecule-824.sd
+Name: 5281675 conformers: 25
+Number of hits: 0
+CPU time: 0.20 [s]
+==================
+825) File: molecule-825.sd
+Name: 5281675 conformers: 52
+Number of hits: 0
+CPU time: 0.29 [s]
+==================
+826) File: molecule-826.sd
+Name: 5281675 conformers: 10
+Number of hits: 0
+CPU time: 0.06 [s]
+==================
+827) File: molecule-827.sd
+Name: 5281675 conformers: 32
+Number of hits: 0
+CPU time: 0.18 [s]
+==================
+828) File: molecule-828.sd
+Name: 5281675 conformers: 31
+Number of hits: 0
+CPU time: 0.18 [s]
+==================
+829) File: molecule-829.sd
+Name: 5281675 conformers: 13
+Number of hits: 0
+CPU time: 0.08 [s]
+==================
+830) File: molecule-830.sd
+Name: 5282150 conformers: 106
+Number of hits: 2
+CPU time: 1.88 [s]
+==================
+831) File: molecule-831.sd
+Name: 5282150 conformers: 146
+Number of hits: 2
+CPU time: 2.87 [s]
+==================
+832) File: molecule-832.sd
+Name: 5282150 conformers: 87
+Number of hits: 2
+CPU time: 1.51 [s]
+==================
+833) File: molecule-833.sd
+Name: 5282150 conformers: 118
+Number of hits: 2
+CPU time: 2.24 [s]
+==================
+834) File: molecule-834.sd
+Name: 5282150 conformers: 108
+Number of hits: 3
+CPU time: 2.00 [s]
+==================
+835) File: molecule-835.sd
+Name: 5282945 conformers: 209
+Number of hits: 10
+CPU time: 2.77 [s]
+==================
+836) File: molecule-836.sd
+Name: 5282945 conformers: 131
+Number of hits: 10
+CPU time: 1.85 [s]
+==================
+837) File: molecule-837.sd
+Name: 5282947 conformers: 104
+Number of hits: 10
+CPU time: 1.44 [s]
+==================
+838) File: molecule-838.sd
+Name: 5282947 conformers: 255
+Number of hits: 10
+CPU time: 2.91 [s]
+==================
+839) File: molecule-839.sd
+Name: 5282948 conformers: 255
+Number of hits: 10
+CPU time: 3.26 [s]
+==================
+840) File: molecule-840.sd
+Name: 5282948 conformers: 247
+Number of hits: 10
+CPU time: 3.13 [s]
+==================
+841) File: molecule-841.sd
+Name: 5284359 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+842) File: molecule-842.sd
+Name: 5317025 conformers: 104
+Number of hits: 6
+CPU time: 2.68 [s]
+==================
+843) File: molecule-843.sd
+Name: 5317025 conformers: 117
+Number of hits: 3
+CPU time: 2.61 [s]
+==================
+844) File: molecule-844.sd
+Name: 5481663 conformers: 94
+Number of hits: 1
+CPU time: 1.71 [s]
+==================
+845) File: molecule-845.sd
+Name: 5481663 conformers: 1
+Number of hits: 0
+CPU time: 0.02 [s]
+==================
+846) File: molecule-846.sd
+Name: 5481663 conformers: 60
+Number of hits: 0
+CPU time: 1.06 [s]
+==================
+847) File: molecule-847.sd
+Name: 5481663 conformers: 30
+Number of hits: 0
+CPU time: 0.55 [s]
+==================
+848) File: molecule-848.sd
+Name: 5481663 conformers: 118
+Number of hits: 1
+CPU time: 1.96 [s]
+==================
+849) File: molecule-849.sd
+Name: 5481663 conformers: 84
+Number of hits: 0
+CPU time: 1.52 [s]
+==================
+850) File: molecule-850.sd
+Name: 5481663 conformers: 57
+Number of hits: 0
+CPU time: 0.97 [s]
+==================
+851) File: molecule-851.sd
+Name: 6419835 conformers: 41
+Number of hits: 0
+CPU time: 0.27 [s]
+==================
+852) File: molecule-852.sd
+Name: 6419835 conformers: 46
+Number of hits: 1
+CPU time: 0.29 [s]
+==================
+853) File: molecule-853.sd
+Name: 6446027 conformers: 255
+Number of hits: 10
+CPU time: 2.70 [s]
+==================
+854) File: molecule-854.sd
+Name: 9796304 conformers: 255
+Number of hits: 10
+CPU time: 3.36 [s]
+==================
+855) File: molecule-855.sd
+Name: 9796304 conformers: 255
+Number of hits: 10
+CPU time: 3.38 [s]
+==================
+856) File: molecule-856.sd
+Name: 11250133 conformers: 111
+Number of hits: 0
+CPU time: 1.34 [s]
+==================
+857) File: molecule-857.sd
+Name: 11250133 conformers: 188
+Number of hits: 3
+CPU time: 2.45 [s]
+==================
+858) File: molecule-858.sd
+Name: 12343877 conformers: 4
+Number of hits: 1
+CPU time: 0.01 [s]
+==================
+859) File: molecule-859.sd
+Name: 15593124 conformers: 17
+Number of hits: 0
+CPU time: 0.47 [s]
+==================
+860) File: molecule-860.sd
+Name: 15593124 conformers: 6
+Number of hits: 0
+CPU time: 0.15 [s]
+==================
+861) File: molecule-861.sd
+Name: 15593124 conformers: 24
+Number of hits: 0
+CPU time: 0.63 [s]
+==================
+862) File: molecule-862.sd
+Name: 15593124 conformers: 25
+Number of hits: 0
+CPU time: 0.63 [s]
+==================
+863) File: molecule-863.sd
+Name: 53955370 conformers: 190
+Number of hits: 10
+CPU time: 2.25 [s]
+==================
+864) File: molecule-864.sd
+Name: 53955370 conformers: 121
+Number of hits: 10
+CPU time: 1.48 [s]
+==================
+865) File: molecule-865.sd
+Name: 53955370 conformers: 210
+Number of hits: 10
+CPU time: 2.38 [s]
+==================
+866) File: molecule-866.sd
+Name: 53955370 conformers: 140
+Number of hits: 10
+CPU time: 1.68 [s]
+==================
+867) File: molecule-867.sd
+Name: 53955370 conformers: 255
+Number of hits: 10
+CPU time: 3.16 [s]
+==================
+868) File: molecule-868.sd
+Name: 53955370 conformers: 254
+Number of hits: 10
+CPU time: 3.04 [s]
+==================
+869) File: molecule-869.sd
+Name: 53955370 conformers: 123
+Number of hits: 10
+CPU time: 1.51 [s]
+==================
+870) File: molecule-870.sd
+Name: 53955370 conformers: 255
+Number of hits: 10
+CPU time: 3.00 [s]
+==================
+871) File: molecule-871.sd
+Name: 53955370 conformers: 121
+Number of hits: 10
+CPU time: 1.53 [s]
+==================
+872) File: molecule-872.sd
+Name: 53955370 conformers: 179
+Number of hits: 10
+CPU time: 2.23 [s]
+==================
+873) File: molecule-873.sd
+Name: 53955370 conformers: 209
+Number of hits: 10
+CPU time: 2.52 [s]
+==================
+874) File: molecule-874.sd
+Name: 53955370 conformers: 255
+Number of hits: 10
+CPU time: 2.98 [s]
+==================
+875) File: molecule-875.sd
+Name: 53955370 conformers: 255
+Number of hits: 10
+CPU time: 3.06 [s]
+==================
+876) File: molecule-876.sd
+Name: 53955370 conformers: 251
+Number of hits: 10
+CPU time: 3.08 [s]
+==================
+877) File: molecule-877.sd
+Name: 53955370 conformers: 255
+Number of hits: 10
+CPU time: 3.03 [s]
+==================
+878) File: molecule-878.sd
+Name: 53955370 conformers: 184
+Number of hits: 10
+CPU time: 2.27 [s]
+==================
+879) File: molecule-879.sd
+Name: 69964214 conformers: 149
+Number of hits: 1
+CPU time: 3.23 [s]
+==================
+880) File: molecule-880.sd
+Name: 69964214 conformers: 125
+Number of hits: 0
+CPU time: 2.72 [s]
+==================
+881) File: molecule-881.sd
+Name: 72193635 conformers: 69
+Number of hits: 0
+CPU time: 1.90 [s]
+==================
+882) File: molecule-882.sd
+Name: 72193635 conformers: 39
+Number of hits: 0
+CPU time: 1.07 [s]
+==================
+883) File: molecule-883.sd
+Name: 72193635 conformers: 17
+Number of hits: 0
+CPU time: 0.50 [s]
+==================
+884) File: molecule-884.sd
+Name: 72193635 conformers: 100
+Number of hits: 0
+CPU time: 2.71 [s]
+==================
+885) File: molecule-885.sd
+Name: 78382153 conformers: 255
+Number of hits: 10
+CPU time: 3.00 [s]
+==================
+886) File: molecule-886.sd
+Name: 78382153 conformers: 255
+Number of hits: 10
+CPU time: 2.92 [s]
+==================
+887) File: molecule-887.sd
+Name: 78382153 conformers: 252
+Number of hits: 10
+CPU time: 3.05 [s]
+==================
+888) File: molecule-888.sd
+Name: 78382153 conformers: 255
+Number of hits: 10
+CPU time: 3.02 [s]
+==================
+889) File: molecule-889.sd
+Name: 78382153 conformers: 168
+Number of hits: 10
+CPU time: 2.07 [s]
+==================
+890) File: molecule-890.sd
+Name: 78382153 conformers: 91
+Number of hits: 10
+CPU time: 1.12 [s]
+==================
+891) File: molecule-891.sd
+Name: 78382153 conformers: 85
+Number of hits: 10
+CPU time: 1.03 [s]
+==================
+892) File: molecule-892.sd
+Name: 78382153 conformers: 127
+Number of hits: 10
+CPU time: 1.67 [s]
+==================
+893) File: molecule-893.sd
+Name: 78382153 conformers: 248
+Number of hits: 10
+CPU time: 3.59 [s]
+==================
+894) File: molecule-894.sd
+Name: 78382153 conformers: 137
+Number of hits: 10
+CPU time: 2.29 [s]
+==================
+895) File: molecule-895.sd
+Name: 78382153 conformers: 201
+Number of hits: 10
+CPU time: 2.50 [s]
+==================
+896) File: molecule-896.sd
+Name: 78382153 conformers: 255
+Number of hits: 10
+CPU time: 3.25 [s]
+==================
+897) File: molecule-897.sd
+Name: 78382153 conformers: 255
+Number of hits: 10
+CPU time: 3.15 [s]
+==================
+898) File: molecule-898.sd
+Name: 78382153 conformers: 134
+Number of hits: 10
+CPU time: 1.68 [s]
+==================
+899) File: molecule-899.sd
+Name: 78382153 conformers: 255
+Number of hits: 10
+CPU time: 3.00 [s]
+==================
+900) File: molecule-900.sd
+Name: 78382153 conformers: 171
+Number of hits: 10
+CPU time: 2.15 [s]
+==================
+901) File: molecule-901.sd
+Name: 92253768 conformers: 251
+Number of hits: 1
+CPU time: 1.20 [s]
+==================
+902) File: molecule-902.sd
+Name: 102416835 conformers: 20
+Number of hits: 1
+CPU time: 0.03 [s]
+==================
+903) File: molecule-903.sd
+Name: 1065 conformers: 36
+Number of hits: 3
+CPU time: 0.16 [s]
+==================
+904) File: molecule-904.sd
+Name: 1065 conformers: 41
+Number of hits: 3
+CPU time: 0.17 [s]
+==================
+905) File: molecule-905.sd
+Name: 1176 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+906) File: molecule-906.sd
+Name: 2153 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+907) File: molecule-907.sd
+Name: 2153 conformers: 1
+Number of hits: 0
+CPU time: 0.00 [s]
+==================
+
+
+Ligands processed: 907
+
+
+1979 Poses were saved in sd file format to: LibDock_out.sd
+
+CPU time: 797.46[s]
+End time: Mon Sep 11 17:15:08 2023
+
+
+Released LibDock License
